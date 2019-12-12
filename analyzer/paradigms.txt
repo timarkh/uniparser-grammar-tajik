@@ -1447,17 +1447,5 @@
   gramm: ADJ
   gloss: ADJ
   paradigm: N
- -flex: .ии<.>
-  gramm: ADJ
-  gloss: ADJ.ezf
-  paradigm: N
- -flex: .вии<.>
-  gramm: ADJ
-  gloss: ADJ.ezf
-  paradigm: N
- -flex: .гии<.>
-  gramm: ADJ
-  gloss: ADJ.ezf
-  paradigm: N
  
  
