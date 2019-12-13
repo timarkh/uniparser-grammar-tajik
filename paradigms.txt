@@ -9,6 +9,9 @@
 -paradigm: N
  -flex: <0>.
   gramm: sg
+ -flex: <1>.и
+  gramm: sg,ezf
+  gloss: SG,EZF
  -flex: <0>.у//.ю
   gramm: sg,and
   gloss: SG.and
