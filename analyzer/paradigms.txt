@@ -1168,6 +1168,13 @@
  -flex: <1>би.ед
   gramm: imp,sbjv,2,pl
   gloss: IMP/SBJV.2PL
+ -flex: <1>би.ад
+  gramm: sbjv,3,sg
+  gloss: SBJV.3SG
+ -flex: <1>би.яд
+  gramm: sbjv,3,sg
+  gloss: SBJV.3SG
+
  -flex: <0>.aниам
   gramm: int,1,sg
   gloss: INT.1SG
