@@ -1014,31 +1014,31 @@
   gloss: NEG
  -flex: <0>на.ам
   gramm: neg,pst,1,sg
-  gloss: NEG.PST.1SG
+  gloss: NEG|PST.1SG
  -flex: <0>на.ям
   gramm: neg,pst,1,sg
-  gloss: NEG.PST.1SG
+  gloss: NEG|PST.1SG
  -flex: <0>на.ӣ
   gramm: neg,pst,2,sg
-  gloss: NEG.PST.2SG
+  gloss: NEG|PST.2SG
  -flex: <0>на.0
   gramm: neg,pst,3,sg
-  gloss: NEG.PST.3SG
+  gloss: NEG|PST.3SG
  -flex: <0>на.ем
   gramm: neg,pst,1,pl
-  gloss: NEG.PST.1PL
+  gloss: NEG|PST.1PL
  -flex: <0>на.ед
   gramm: neg,pst,2,pl
-  gloss: NEG.PST.2PL
+  gloss: NEG|PST.2PL
  -flex: <0>на.етон
   gramm: neg,pst,2,pl
-  gloss: NEG.PST.2PL
+  gloss: NEG|PST.2PL
  -flex: <0>на.анд
   gramm: neg,pst,3,pl
-  gloss: NEG.PST.3PL
+  gloss: NEG|PST.3PL
  -flex: <0>на.янд
   gramm: neg,pst,3,pl
-  gloss: NEG.PST.3PL
+  gloss: NEG|PST.3PL
  -flex: <1>на|[ме].ам
   gramm: neg,prs,1,sg
   gloss: NEG|PRS.1SG
@@ -1131,13 +1131,13 @@
   gloss: NEG|CNJECT2|PRS.3pl
  -flex: <1>на.ам
   gramm: neg,sbjv,1,sg
-  gloss: NEG.SBJV.1SG
+  gloss: NEG|SBJV.1SG
  -flex: <1>на.ӣ
   gramm: neg,sbjv,2,sg
-  gloss: NEG.SBJV.2SG
+  gloss: NEG|SBJV.2SG
  -flex: <1>на.ад
   gramm: neg,sbjv,3,sg
-  gloss: NEG.SBJV.3SG
+  gloss: NEG|SBJV.3SG
  -flex: <1>на.яд
   gramm: neg,sbjv,3,sg
   gloss: NEG.SBJV.3SG
