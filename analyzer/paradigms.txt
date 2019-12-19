@@ -1159,6 +1159,9 @@
  -flex: <1>ма.0
   gramm: neg,imp,2,sg
   gloss: NEG|IMP.2SG
+ -flex: <1>на.0
+  gramm: neg,imp,2,sg
+  gloss: NEG|IMP.2SG
  -flex: <1>ма.ед
   gramm: neg,imp,2,pl
   gloss: NEG|IMP.2PL
