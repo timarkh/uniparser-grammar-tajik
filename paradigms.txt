@@ -521,7 +521,7 @@
   gloss: SUPER|POSS.3PL|OBJ.DEF
  -flex: <0>.ҳо|ю
   gramm: pl,and
-  gloss: PL,and
+  gloss: PL|and
  -flex: <0>.от|у//.ҷот|у//.вот|у//.ёт|у
   gramm: pl.ar,pl,and
   gloss: PL.ar|and
@@ -575,7 +575,7 @@
   gloss: PL.ar.m|OBJ.DEF|and
  -flex: <0>.е|ро|ю
   gramm: sg,indef,obj.def,and
-  gloss: SG.INDEF|OBJ.DEF
+  gloss: SG.INDEF|OBJ.DEF|and
  -flex: <0>.ҳо|е|ро|ю
   gramm: pl,indef,obj.def,and
   gloss: PL|INDEF|OBJ.DEF|and
@@ -1140,40 +1140,40 @@
   gloss: NEG|SBJV.3SG
  -flex: <1>на.яд
   gramm: neg,sbjv,3,sg
-  gloss: NEG.SBJV.3SG
+  gloss: NEG|SBJV.3SG
  -flex: <1>на.ем
   gramm: neg,sbjv,1,pl
-  gloss: NEG.SBJV.1PL
+  gloss: NEG|SBJV.1PL
  -flex: <1>на.ед
   gramm: neg,sbjv,2,pl
-  gloss: NEG.SBJV.2PL
+  gloss: NEG|SBJV.2PL
  -flex: <1>на.етон
   gramm: neg,sbjv,2,pl
-  gloss: NEG.SBJV.2PL
+  gloss: NEG|SBJV.2PL
  -flex: <1>на.анд
   gramm: neg,sbjv,3,pl
-  gloss: NEG.SBJV.3PL
+  gloss: NEG|SBJV.3PL
  -flex: <1>на.янд
   gramm: neg,sbjv,3,pl
-  gloss: NEG.SBJV.3PL
+  gloss: NEG|SBJV.3PL
  -flex: <1>ма.0
   gramm: neg,imp,2,sg
-  gloss: NEG.IMP.2SG
+  gloss: NEG|IMP.2SG
  -flex: <1>ма.ед
   gramm: neg,imp,2,pl
-  gloss: NEG.IMP.2PL
+  gloss: NEG|IMP.2PL
  -flex: <1>би.
   gramm: imp,sbjv
   gloss: IMP/SBJV
  -flex: <1>би.ед
   gramm: imp,sbjv,2,pl
-  gloss: IMP/SBJV.2PL
+  gloss: IMP/SBJV|2PL
  -flex: <1>би.ад
   gramm: sbjv,3,sg
-  gloss: SBJV.3SG
+  gloss: SBJV|3SG
  -flex: <1>би.яд
   gramm: sbjv,3,sg
-  gloss: SBJV.3SG
+  gloss: SBJV|3SG
 
  -flex: <0>.aниам
   gramm: int,1,sg
@@ -1210,37 +1210,37 @@
   gloss: INT.3PL
  -flex: <0>на.aниам
   gramm: neg,int,1,sg
-  gloss: NEG.INT.1SG
+  gloss: NEG|INT.1SG
  -flex: <0>на.aнистам
   gramm: neg,int,1,sg
-  gloss: NEG.INT.1SG
+  gloss: NEG|INT.1SG
  -flex: <0>на.аниӣ
   gramm: neg,int,2,sg
-  gloss: NEG.INT.2SG
+  gloss: NEG|INT.2SG
  -flex: <0>на.анистӣ
   gramm: neg,int,2,sg
-  gloss: NEG.INT.2SG
+  gloss: NEG|INT.2SG
  -flex: <0>на.анист
   gramm: neg,int,3,sg
-  gloss: NEG.INT.3SG
+  gloss: NEG|INT.3SG
  -flex: <0>на.aнием
   gramm: neg,int,1,pl
-  gloss: NEG.INT.1PL
+  gloss: NEG|INT.1PL
  -flex: <0>на.aнистем
   gramm: neg,int,1,pl
-  gloss: NEG.INT.1PL
+  gloss: NEG|INT.1PL
  -flex: <0>на.аниед
   gramm: neg,int,2,pl
-  gloss: NEG.INT.2PL
+  gloss: NEG|INT.2PL
  -flex: <0>на.анистед
   gramm: neg,int,2,pl
-  gloss: NEG.INT.2PL
+  gloss: NEG|INT.2PL
  -flex: <0>на.анианд
   gramm: neg,int,3,pl
-  gloss: NEG.INT.3PL
+  gloss: NEG|INT.3PL
  -flex: <0>на.анистанд
   gramm: neg,int,3,pl
-  gloss: NEG.INT.3PL  
+  gloss: NEG|INT.3PL  
  -flex: <0>.aгистам
   gramm: cnject,pst,1,sg
   gloss: CNJECT.PST.1SG
@@ -1316,7 +1316,7 @@
  -flex: <0>.aгӣ
   gramm: part.pst
   gloss: PART.PST
- -flex: <0>ме.aгӣ
+ -flex: <0>[ме].aгӣ
   gramm: part.mod
   gloss: PART.MOD
  -flex: <0>.aнӣ
