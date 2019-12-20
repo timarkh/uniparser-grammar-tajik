@@ -21,6 +21,9 @@
  -flex: <0>.ӣ
   gramm: sg,cop,2,sg
   gloss: SG.COP.2SG
+ -flex: <0>.ст
+  gramm: sg,cop,3,sg
+  gloss: SG.COP.3SG
  -flex: <0>.ем
   gramm: sg,cop,1,pl
   gloss: SG.COP.1PL
@@ -39,6 +42,9 @@
  -flex: <0>.ҳо|ӣ
   gramm: pl,cop,2,sg
   gloss: PL|COP.2SG
+ -flex: <0>.ҳо|ст
+  gramm: pl,cop,3,sg
+  gloss: PL|COP.3SG
  -flex: <0>.ҳо|ем
   gramm: pl,cop,1,pl
   gloss: PL|COP.1PL
