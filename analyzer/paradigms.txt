@@ -57,37 +57,37 @@
  -flex: <0>.от//.ҷот//.вот//.ёт
   gramm: pl.ar,pl
   gloss: PL.ar
- -flex: <0>.от//.ҷот//.вот//.ёт|ам
+ -flex: <0>.от|ам//.ҷот|ам//.вот|ам//.ёт|ам
   gramm: pl.ar,pl,cop,1,sg
   gloss: PL.ar|COP.1SG
- -flex: <0>.от//.ҷот//.вот//.ёт|ӣ
+ -flex: <0>.от|ӣ//.ҷот|ӣ//.вот|ӣ//.ёт|ӣ
   gramm: pl.ar,pl,cop,2,sg
   gloss: PL.ar|COP.2SG
- -flex: <0>.от//.ҷот//.вот//.ёт|ем
+ -flex: <0>.от|ем//.ҷот|ем//.вот|ем//.ёт|ем
   gramm: pl.ar,pl,cop,1,pl
   gloss: PL.ar|COP.1PL
- -flex: <0>.от//.ҷот//.вот//.ёт|ед
+ -flex: <0>.от|ед//.ҷот|ед//.вот|ед//.ёт|ед
   gramm: pl.ar,pl,cop,2,pl
   gloss: PL.ar|COP.2PL
- -flex: <0>.от//.ҷот//.вот//.ёт|анд
+ -flex: <0>.от|анд//.ҷот|анд//.вот|анд//.ёт|анд
   gramm: pl.ar,pl,cop,3,pl
   gloss: PL.ar|COP.3PL
  -flex: <0>.он//.гон//.вон//.ён
   gramm: pl.anim,pl
   gloss: PL.anim
- -flex: <0>.он//.гон//.вон//.ён|ам
+ -flex: <0>.он|ам//.гон|ам//.вон|ам//.ён|ам
   gramm: pl.anim,pl,cop,1,sg
   gloss: PL.anim|COP.1SG
- -flex: <0>.он//.гон//.вон//.ён|ӣ
+ -flex: <0>.он|ӣ//.гон|ӣ//.вон|ӣ//.ён|ӣ
   gramm: pl.anim,pl,cop,2,sg
   gloss: PL.anim|COP.2SG
- -flex: <0>.он//.гон//.вон//.ён|ем
+ -flex: <0>.он|ем//.гон|ем//.вон|ем//.ён|ем
   gramm: pl.anim,pl,cop,1,pl
   gloss: PL.anim|COP.1PL
- -flex: <0>.он//.гон//.вон//.ён|ед
+ -flex: <0>.он|ед//.гон|ед//.вон|ед//.ён|ед
   gramm: pl.anim,pl,cop,2,pl
   gloss: PL.anim|COP.2PL
- -flex: <0>.он//.гон//.вон//.ён|анд
+ -flex: <0>.он|анд//.гон|анд//.вон|анд//.ён|анд
   gramm: pl.anim,pl,cop,3,pl
   gloss: PL.anim|COP.3PL
  -flex: <0>.ин
@@ -527,7 +527,7 @@
   gloss: SUPER|POSS.3PL|OBJ.DEF
  -flex: <0>.ҳо|ю
   gramm: pl,and
-  gloss: PL,and
+  gloss: PL|and
  -flex: <0>.от|у//.ҷот|у//.вот|у//.ёт|у
   gramm: pl.ar,pl,and
   gloss: PL.ar|and
@@ -1163,20 +1163,20 @@
   gramm: neg,sbjv,3,pl
   gloss: NEG|SBJV.3PL
  -flex: <1>ма.0
-  gramm: neg,imp,2,sg
-  gloss: NEG|IMP.2SG
+  gramm: neg,neg2,imp,2,sg
+  gloss: NEG2|IMP.2SG
  -flex: <1>на.0
   gramm: neg,imp,2,sg
   gloss: NEG|IMP.2SG
  -flex: <1>ма.ед
-  gramm: neg,imp,2,pl
-  gloss: NEG|IMP.2PL
+  gramm: neg,neg2,imp,2,pl
+  gloss: NEG2|IMP.2PL
  -flex: <1>би.
   gramm: imp,sbjv
-  gloss: IMP/SBJV
+  gloss: IMP,SBJV
  -flex: <1>би.ед
   gramm: imp,sbjv,2,pl
-  gloss: IMP/SBJV|2PL
+  gloss: IMP.SBJV|2PL
  -flex: <1>би.ад
   gramm: sbjv,3,sg
   gloss: SBJV|3SG
@@ -1322,10 +1322,10 @@
   gramm: conv,neg
   gloss: NEG|CONV
  -flex: <0>.aгӣ
-  gramm: part.pst
+  gramm: part,part.pst
   gloss: PART.PST
  -flex: <0>ме.aгӣ
-  gramm: part.mod
+  gramm: part,part.mod
   gloss: HAB|PART.MOD
  -flex: <0>.aнӣ
   gramm: part.fut
@@ -1455,11 +1455,11 @@
   paradigm: N
  -flex: .ӣ<.>
   gramm: ADJ
-  gloss: ADJ
+  gloss: ADJ0
   paradigm: N
  -flex: .вӣ<.>
   gramm: ADJ
-  gloss: ADJ
+  gloss: ADJ0
   paradigm: N
  -flex: .гӣ<.>
   gramm: ADJ
