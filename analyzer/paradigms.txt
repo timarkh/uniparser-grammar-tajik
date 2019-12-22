@@ -1123,9 +1123,6 @@
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,sg
   gloss: NEG|CNJECT2|PRS.1SG
- -flex: <0>на|[ме].агист
-  gramm: neg,cnject2,prs,3,sg
-  gloss: NEG|CNJECT2|PRS.3SG
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,pl
   gloss: NEG|CNJECT2|PRS.1PL
@@ -1270,9 +1267,6 @@
  -flex: <0>.aгем
   gramm: cnject2,pst,1,sg
   gloss: CNJECT2.PST.1SG
- -flex: <0>.агист
-  gramm: cnject2,pst,3,sg
-  gloss: CNJECT2.PST.3SG
  -flex: <0>.aгем
   gramm: cnject2,pst,1,pl
   gloss: CNJECT2.PST.1PL
@@ -1303,9 +1297,6 @@
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,sg
   gloss: CNJECT2|PRS.1SG
- -flex: <0>[ме].агист
-  gramm: cnject2,prs,3,sg
-  gloss: CNJECT2|PRS.3SG
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,pl
   gloss: CNJECT2|PRS.1PL
@@ -1322,8 +1313,8 @@
   gramm: conv,neg
   gloss: NEG|CONV
  -flex: <0>.aгӣ
-  gramm: part,part.pst
-  gloss: PART.PST
+  gramm: part,part.mod
+  gloss: PART.MOD
  -flex: <0>ме.aгӣ
   gramm: part,part.mod
   gloss: HAB|PART.MOD
@@ -1331,8 +1322,11 @@
   gramm: part.fut
   gloss: PART.FUT
  -flex: <1>.aнда
-  gramm: part.neg,prs
-  gloss: PART.NEG|PRS
+  gramm: part.prs
+  gloss: PART.PRS
+ -flex: <1>.янда
+  gramm: part.prs
+  gloss: PART.PRS
  -flex: <0>.ан<.>
   gramm: inf
   gloss: INF
