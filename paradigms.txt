@@ -1293,7 +1293,7 @@
   gloss: CNJECT|PRS.2PL
  -flex: <0>[ме].агистанд
   gramm: cnject,prs,3,pl
-  gloss: CNJECT|PRS.3pl
+  gloss: CNJECT|PRS.3PL
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,sg
   gloss: CNJECT2|PRS.1SG
@@ -1305,7 +1305,7 @@
   gloss: CNJECT2|PRS.2PL
  -flex: <0>[ме].аген
   gramm: cnject2,prs,3,pl
-  gloss: CNJECT2|PRS.3pl
+  gloss: CNJECT2|PRS.3PL
  -flex: <0>.а
   gramm: conv
   gloss: CONV
