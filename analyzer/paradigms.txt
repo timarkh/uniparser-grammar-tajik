@@ -3,7 +3,7 @@
   gramm: sg,ezf
   gloss: SG,EZF
  -flex: <0>.
- -flex: <0>.у//.ю
+ -flex: <0>.у//.ю//.ву
   gramm: and
   gloss: and
 -paradigm: N
@@ -12,7 +12,7 @@
  -flex: <1>.и
   gramm: sg,ezf
   gloss: SG,EZF
- -flex: <0>.у//.ю
+ -flex: <0>.у//.ю//.ву
   gramm: sg,and
   gloss: SG.and
  -flex: <0>.ам
@@ -862,12 +862,24 @@
   gramm: super,poss.3pl,poss,poss.3,poss.pl,obj.def,and
   gloss: SUPER|POSS.3PL|OBJ.DEF|and
 -paradigm: V
+ -flex: <0>.у//.ю
+  gramm: pst,3,sg,and
+  gloss: PST.3SG.and
  -flex: <0>.ам
   gramm: pst,1,sg
   gloss: PST.1SG
+ -flex: <0>.ам|у
+  gramm: pst,1,sg,and
+  gloss: PST.1SG|and
  -flex: <0>.ям
   gramm: pst,1,sg
   gloss: PST.1SG
+ -flex: <0>.ям|у
+  gramm: pst,1,sg,and
+  gloss: PST.1SG|and
+ -flex: <0>.ӣ|ю
+  gramm: pst,2,sg,and
+  gloss: PST.2SG|and
  -flex: <0>.ӣ
   gramm: pst,2,sg
   gloss: PST.2SG
@@ -877,456 +889,951 @@
  -flex: <0>.ем
   gramm: pst,1,pl
   gloss: PST.1PL
+ -flex: <0>.ем|у
+  gramm: pst,1,pl,and
+  gloss: PST.1PL|and
  -flex: <0>.ед
   gramm: pst,2,pl
   gloss: PST.2PL
+ -flex: <0>.ед|у
+  gramm: pst,2,pl,and
+  gloss: PST.2PL|and
  -flex: <0>.етон
   gramm: pst,2,pl
   gloss: PST.2PL
+ -flex: <0>.етон|у
+  gramm: pst,2,pl,and
+  gloss: PST.2PL|and
  -flex: <0>.анд
   gramm: pst,3,pl
   gloss: PST.3PL
+ -flex: <0>.анд|у
+  gramm: pst,3,pl,and
+  gloss: PST.3PL|and
  -flex: <0>.янд
   gramm: pst,3,pl
   gloss: PST.3PL
+ -flex: <0>.янд|у
+  gramm: pst,3,pl,and
+  gloss: PST.3PL|and
  -flex: <1>[ме].ам
   gramm: prs,1,sg
   gloss: PRS.1SG
+ -flex: <1>[ме].ам|у
+  gramm: prs,1,sg,and
+  gloss: PRS.1SG|and
  -flex: <1>[ме].ям
   gramm: prs,1,sg
   gloss: PRS.1SG
+ -flex: <1>[ме].ям|у
+  gramm: prs,1,sg,and
+  gloss: PRS.1SG|and
  -flex: <1>[ме].ӣ
   gramm: prs,2,sg
   gloss: PRS.2SG
+ -flex: <1>[ме].ӣ|ю
+  gramm: prs,2,sg,and
+  gloss: PRS.2SG|and
  -flex: <1>[ме].ад
   gramm: prs,3,sg
   gloss: PRS.3SG
+ -flex: <1>[ме].ад|у
+  gramm: prs,3,sg,and
+  gloss: PRS.3SG|and
  -flex: <1>[ме].яд
   gramm: prs,3,sg
   gloss: PRS.3SG
+ -flex: <1>[ме].яд|у
+  gramm: prs,3,sg,and
+  gloss: PRS.3SG|and
  -flex: <1>[ме].ем
   gramm: prs,1,pl
   gloss: PRS.1PL
+ -flex: <1>[ме].ем|у
+  gramm: prs,1,pl,and
+  gloss: PRS.1PL|and
  -flex: <1>[ме].ед
   gramm: prs,2,pl
   gloss: PRS.2PL
+ -flex: <1>[ме].ед|у
+  gramm: prs,2,pl,and
+  gloss: PRS.2PL|and
  -flex: <1>[ме].етон
   gramm: prs,2,pl
   gloss: PRS.2PL
+ -flex: <1>[ме].етон|у
+  gramm: prs,2,pl,and
+  gloss: PRS.2PL|and
  -flex: <1>[ме].анд
   gramm: prs,3,pl
   gloss: PRS.3PL
+ -flex: <1>[ме].анд|у
+  gramm: prs,3,pl,and
+  gloss: PRS.3PL|and
  -flex: <1>[ме].янд
   gramm: prs,3,pl
   gloss: PRS.3PL
+ -flex: <1>[ме].янд|у
+  gramm: prs,3,pl,and
+  gloss: PRS.3PL|and
  -flex: <0>ме.ам
   gramm: hab,pst,1,sg
   gloss: HAB|PST.1SG
+ -flex: <0>ме.ам|у
+  gramm: hab,pst,1,sg,and
+  gloss: HAB|PST.1SG|and
  -flex: <0>ме.ям
   gramm: hab,pst,1,sg
   gloss: HAB|PST.1SG
+ -flex: <0>ме.ям|у
+  gramm: hab,pst,1,sg,and
+  gloss: HAB|PST.1SG|and
  -flex: <0>ме.ӣ
   gramm: hab,pst,2,sg
   gloss: HAB|PST.2SG
+ -flex: <0>ме.ӣ|ю
+  gramm: hab,pst,2,sg,and
+  gloss: HAB|PST.2SG|and
  -flex: <0>ме.
   gramm: hab,pst,3,sg
   gloss: HAB|PST.3SG
+ -flex: <0>ме.у//.ю
+  gramm: hab,pst,3,sg,and
+  gloss: HAB|PST.3SG.and
  -flex: <0>ме.ем
   gramm: hab,pst,1,pl
   gloss: HAB|PST.1PL
+ -flex: <0>ме.ем|у
+  gramm: hab,pst,1,pl,and
+  gloss: HAB|PST.1PL|and
  -flex: <0>ме.ед
   gramm: hab,pst,2,pl
   gloss: HAB|PST.2PL
+ -flex: <0>ме.ед|у
+  gramm: hab,pst,2,pl,and
+  gloss: HAB|PST.2PL|and
  -flex: <0>ме.етон
   gramm: hab,pst,2,pl
   gloss: HAB|PST.2PL
+ -flex: <0>ме.етон|у
+  gramm: hab,pst,2,pl,and
+  gloss: HAB|PST.2PL|and
  -flex: <0>ме.анд
   gramm: hab,pst,3,pl
   gloss: HAB|PST.3pl
+ -flex: <0>ме.анд|у
+  gramm: hab,pst,3,pl,and
+  gloss: HAB|PST.3pl|and
  -flex: <0>ме.янд
   gramm: hab,pst,3,pl
   gloss: HAB|PST.3PL
+ -flex: <0>ме.янд|у
+  gramm: hab,pst,3,pl,and
+  gloss: HAB|PST.3PL|and
  -flex: <0>.aам
   gramm: prf,1,sg
   gloss: PRF.1SG
+ -flex: <0>.aам|у
+  gramm: prf,1,sg,and
+  gloss: PRF.1SG|and
  -flex: <0>.аӣ
   gramm: prf,2,sg
   gloss: PRF.2SG
+ -flex: <0>.аӣ|ю
+  gramm: prf,2,sg,and
+  gloss: PRF.2SG|and
  -flex: <0>.ааст
   gramm: prf,3,sg
   gloss: PRF.3SG
+ -flex: <0>.ааст|у
+  gramm: prf,3,sg,and
+  gloss: PRF.3SG|and
  -flex: <0>.aем
   gramm: prf,1,pl
   gloss: PRF.1PL
+ -flex: <0>.aем|у
+  gramm: prf,1,pl,and
+  gloss: PRF.1PL|and
  -flex: <0>.аед
   gramm: prf,2,pl
   gloss: PRF.2PL
+ -flex: <0>.аед|у
+  gramm: prf,2,pl,and
+  gloss: PRF.2PL|and
  -flex: <0>.аанд
   gramm: prf,3,pl
   gloss: PRF.3PL
+ -flex: <0>.аанд|у
+  gramm: prf,3,pl,and
+  gloss: PRF.3PL|and
+ -flex: <0>на.aам
+  gramm: neg,prf,1,sg
+  gloss: NEG|PRF.1SG
+ -flex: <0>на.aам|у
+  gramm: neg,prf,1,sg,and
+  gloss: NEG|PRF.1SG|and
+ -flex: <0>на.аӣ
+  gramm: neg,prf,2,sg
+  gloss: NEG|PRF.2SG
+ -flex: <0>на.аӣ|ю
+  gramm: neg,prf,2,sg,and
+  gloss: NEG|PRF.2SG|and
+ -flex: <0>на.ааст
+  gramm: neg,prf,3,sg
+  gloss: NEG|PRF.3SG
+ -flex: <0>на.ааст|у
+  gramm: neg,prf,3,sg,and
+  gloss: NEG|PRF.3SG|and
+ -flex: <0>на.aем
+  gramm: neg,prf,1,pl
+  gloss: NEG|PRF.1PL
+ -flex: <0>на.aем|у
+  gramm: neg,prf,1,pl,and
+  gloss: NEG|PRF.1PL|and
+ -flex: <0>на.аед
+  gramm: neg,prf,2,pl
+  gloss: NEG|PRF.2PL
+ -flex: <0>на.аед|у
+  gramm: neg,prf,2,pl,and
+  gloss: NEG|PRF.2PL|and
+ -flex: <0>на.аанд
+  gramm: neg,prf,3,pl
+  gloss: NEG|PRF.3PL
+ -flex: <0>на.аанд|у
+  gramm: neg,prf,3,pl,and
+  gloss: NEG|PRF.3PL|and
  -flex: <0>ме.аам
   gramm: hab,prf,1,sg
   gloss: HAB|PRF.1SG
+ -flex: <0>ме.аам|у
+  gramm: hab,prf,1,sg,and
+  gloss: HAB|PRF.1SG|and
  -flex: <0>ме.аӣ
   gramm: hab,prf,2,sg
   gloss: HAB|PRF.2SG
+ -flex: <0>ме.аӣ|ю
+  gramm: hab,prf,2,sg,and
+  gloss: HAB|PRF.2SG|and
  -flex: <0>ме.ааст
   gramm: hab,prf,3,sg
   gloss: HAB|PRF.3SG
+ -flex: <0>ме.ааст|у
+  gramm: hab,prf,3,sg,and
+  gloss: HAB|PRF.3SG|and
  -flex: <0>ме.аем
   gramm: hab,prf,1,pl
   gloss: HAB|PRF.1PL
+ -flex: <0>ме.аем|у
+  gramm: hab,prf,1,pl,and
+  gloss: HAB|PRF.1PL|and
  -flex: <0>ме.аед
   gramm: hab,prf,2,pl
   gloss: HAB|PRF.2PL
+ -flex: <0>ме.аед|у
+  gramm: hab,prf,2,pl,and
+  gloss: HAB|PRF.2PL|and
  -flex: <0>ме.аанд
   gramm: hab,prf,3,pl
   gloss: HAB|PRF.3pl
+ -flex: <0>ме.аанд|у
+  gramm: hab,prf,3,pl,and
+  gloss: HAB|PRF.3pl|and
  -flex: <1>.ам
   gramm: sbjv,1,sg
   gloss: SBJV.1SG
+ -flex: <1>.ам|у
+  gramm: sbjv,1,sg,and
+  gloss: SBJV.1SG|and
+ -flex: <1>.ям
+  gramm: sbjv,1,sg
+  gloss: SBJV.1SG
+ -flex: <1>.ям|у
+  gramm: sbjv,1,sg,and
+  gloss: SBJV.1SG|and
  -flex: <1>.ӣ
   gramm: sbjv,2,sg
   gloss: SBJV.2SG
+ -flex: <1>.ӣ|ю
+  gramm: sbjv,2,sg,and
+  gloss: SBJV.2SG|and
  -flex: <1>.ад
   gramm: sbjv,3,sg
   gloss: SBJV.3SG
+ -flex: <1>.ад|у
+  gramm: sbjv,3,sg,and
+  gloss: SBJV.3SG|and
  -flex: <1>.яд
   gramm: sbjv,3,sg
   gloss: SBJV.3SG
+ -flex: <1>.яд|у
+  gramm: sbjv,3,sg,and
+  gloss: SBJV.3SG|and
  -flex: <1>.ем
   gramm: sbjv,1,pl
   gloss: SBJV.1PL
+ -flex: <1>.ем|у
+  gramm: sbjv,1,pl,and
+  gloss: SBJV.1PL|and
  -flex: <1>.ед
   gramm: sbjv,2,pl
   gloss: SBJV.2PL
+ -flex: <1>.ед|у
+  gramm: sbjv,2,pl,and
+  gloss: SBJV.2PL|and
  -flex: <1>.етон
   gramm: sbjv,2,pl
   gloss: SBJV.2PL
+ -flex: <1>.етон|у
+  gramm: sbjv,2,pl,and
+  gloss: SBJV.2PL|and
  -flex: <1>.анд
   gramm: sbjv,3,pl
   gloss: SBJV.3PL
+ -flex: <1>.анд|у
+  gramm: sbjv,3,pl,and
+  gloss: SBJV.3PL|and
  -flex: <1>.янд
   gramm: sbjv,3,pl
   gloss: SBJV.3PL
+ -flex: <1>.янд|у
+  gramm: sbjv,3,pl,and
+  gloss: SBJV.3PL|and
  -flex: <1>.0
   gramm: imp,2,sg
   gloss: IMP.2SG
+ -flex: <1>.у
+  gramm: imp,2,sg,and
+  gloss: IMP.2SG.and
  -flex: <1>.ед
   gramm: imp,2,pl
   gloss: IMP.2SG
+ -flex: <1>.ед|у
+  gramm: imp,2,pl,and
+  gloss: IMP.2SG|and
  -flex: <0>на.
   gramm: neg
   gloss: NEG
  -flex: <0>на.ам
   gramm: neg,pst,1,sg
   gloss: NEG|PST.1SG
+ -flex: <0>на.ам|у
+  gramm: neg,pst,1,sg,and
+  gloss: NEG|PST.1SG|and
  -flex: <0>на.ям
   gramm: neg,pst,1,sg
   gloss: NEG|PST.1SG
+ -flex: <0>на.ям|у
+  gramm: neg,pst,1,sg,and
+  gloss: NEG|PST.1SG|and
  -flex: <0>на.ӣ
   gramm: neg,pst,2,sg
   gloss: NEG|PST.2SG
+ -flex: <0>на.ӣ|ю
+  gramm: neg,pst,2,sg,and
+  gloss: NEG|PST.2SG|and
  -flex: <0>на.0
   gramm: neg,pst,3,sg
   gloss: NEG|PST.3SG
+ -flex: <0>на.у
+  gramm: neg,pst,3,sg,and
+  gloss: NEG|PST.3SG.and
  -flex: <0>на.ем
   gramm: neg,pst,1,pl
   gloss: NEG|PST.1PL
+ -flex: <0>на.ем|у
+  gramm: neg,pst,1,pl,and
+  gloss: NEG|PST.1PL|and
  -flex: <0>на.ед
   gramm: neg,pst,2,pl
   gloss: NEG|PST.2PL
+ -flex: <0>на.ед|у
+  gramm: neg,pst,2,pl,and
+  gloss: NEG|PST.2PL|and
  -flex: <0>на.етон
   gramm: neg,pst,2,pl
   gloss: NEG|PST.2PL
+ -flex: <0>на.етон|у
+  gramm: neg,pst,2,pl,and
+  gloss: NEG|PST.2PL|and
  -flex: <0>на.анд
   gramm: neg,pst,3,pl
   gloss: NEG|PST.3PL
+ -flex: <0>на.анд|у
+  gramm: neg,pst,3,pl,and
+  gloss: NEG|PST.3PL|and
  -flex: <0>на.янд
   gramm: neg,pst,3,pl
   gloss: NEG|PST.3PL
+ -flex: <0>на.янд|у
+  gramm: neg,pst,3,pl,and
+  gloss: NEG|PST.3PL|and
  -flex: <1>на|[ме].ам
   gramm: neg,prs,1,sg
   gloss: NEG|PRS.1SG
+ -flex: <1>на|[ме].ам|у
+  gramm: neg,prs,1,sg,and
+  gloss: NEG|PRS.1SG|and
  -flex: <1>на|[ме].ям
   gramm: neg,prs,1,sg
   gloss: NEG|PRS.1SG
+ -flex: <1>на|[ме].ям|у
+  gramm: neg,prs,1,sg,and
+  gloss: NEG|PRS.1SG|and
  -flex: <1>на|[ме].ӣ
   gramm: neg,prs,2,sg
   gloss: NEG|PRS.2SG
+ -flex: <1>на|[ме].ӣ|ю
+  gramm: neg,prs,2,sg,and
+  gloss: NEG|PRS.2SG|and
  -flex: <1>на|[ме].ад
   gramm: neg,prs,3,sg
   gloss: NEG|PRS.3SG
+ -flex: <1>на|[ме].ад|у
+  gramm: neg,prs,3,sg,and
+  gloss: NEG|PRS.3SG|and
  -flex: <1>на|[ме].яд
   gramm: neg,prs,3,sg
   gloss: NEG|PRS.3SG
+ -flex: <1>на|[ме].яд|у
+  gramm: neg,prs,3,sg,and
+  gloss: NEG|PRS.3SG|and
  -flex: <1>на|[ме].ем
   gramm: neg,prs,1,pl
   gloss: NEG|PRS.1PL
+ -flex: <1>на|[ме].ем|у
+  gramm: neg,prs,1,pl,and
+  gloss: NEG|PRS.1PL|and
  -flex: <1>на|[ме].ед
   gramm: neg,prs,2,pl
   gloss: NEG|PRS.2PL
+ -flex: <1>на|[ме].ед|у
+  gramm: neg,prs,2,pl,and
+  gloss: NEG|PRS.2PL|and
  -flex: <1>на|[ме].етон
   gramm: neg,prs,2,pl
   gloss: NEG|PRS.2PL
+ -flex: <1>на|[ме].етон|у
+  gramm: neg,prs,2,pl,and
+  gloss: NEG|PRS.2PL|and
  -flex: <1>на|[ме].анд
   gramm: neg,prs,3,pl
   gloss: NEG|PRS.3PL
+ -flex: <1>на|[ме].анд|and
+  gramm: neg,prs,3,pl,and
+  gloss: NEG|PRS.3PL|and
  -flex: <1>на|[ме].янд
   gramm: neg,prs,3,pl
   gloss: NEG|PRS.3PL
+ -flex: <1>на|[ме].янд|у
+  gramm: neg,prs,3,pl,and
+  gloss: NEG|PRS.3PL|and
  -flex: <0>на|ме.ам
   gramm: neg,hab,pst,1,sg
   gloss: NEG|HAB|PST.1SG
+ -flex: <0>на|ме.ам|у
+  gramm: neg,hab,pst,1,sg,and
+  gloss: NEG|HAB|PST.1SG|and
  -flex: <0>на|ме.ям
   gramm: neg,hab,pst,1,sg
   gloss: NEG|HAB|PST.1SG
+ -flex: <0>на|ме.ям|у
+  gramm: neg,hab,pst,1,sg,and
+  gloss: NEG|HAB|PST.1SG|and
  -flex: <0>на|ме.ӣ
   gramm: neg,hab,pst,2,sg
   gloss: NEG|HAB|PST.2SG
+ -flex: <0>на|ме.ӣ|ю
+  gramm: neg,hab,pst,2,sg,and
+  gloss: NEG|HAB|PST.2SG|and
  -flex: <0>на|ме.
   gramm: neg,hab,pst,3,sg
   gloss: NEG|HAB|PST.3SG
+ -flex: <0>на|ме.у
+  gramm: neg,hab,pst,3,sg,and
+  gloss: NEG|HAB|PST.3SG.and
  -flex: <0>на|ме.ем
   gramm: neg,hab,pst,1,pl
   gloss: NEG|HAB|PST.1PL
+ -flex: <0>на|ме.ем|у
+  gramm: neg,hab,pst,1,pl,and
+  gloss: NEG|HAB|PST.1PL|and
  -flex: <0>на|ме.ед
   gramm: neg,hab,pst,2,pl
   gloss: NEG|HAB|PST.2PL
+ -flex: <0>на|ме.ед|у
+  gramm: neg,hab,pst,2,pl,and
+  gloss: NEG|HAB|PST.2PL|and
  -flex: <0>на|ме.етон
   gramm: neg,hab,pst,2,pl
   gloss: NEG|HAB|PST.2PL
+ -flex: <0>на|ме.етон|у
+  gramm: neg,hab,pst,2,pl,and
+  gloss: NEG|HAB|PST.2PL|and
  -flex: <0>на|ме.анд
   gramm: neg,hab,pst,3,pl
   gloss: NEG|HAB|PST.3pl
+ -flex: <0>на|ме.анд|у
+  gramm: neg,hab,pst,3,pl,and
+  gloss: NEG|HAB|PST.3pl|and
  -flex: <0>на|ме.янд
   gramm: neg,hab,pst,3,pl
   gloss: NEG|HAB|PST.3PL
+ -flex: <0>на|ме.янд|у
+  gramm: neg,hab,pst,3,pl,and
+  gloss: NEG|HAB|PST.3PL|and
  -flex: <0>на|[ме].агистам
   gramm: neg,cnject,prs,1,sg
   gloss: NEG|CNJECT|PRS.1SG
+ -flex: <0>на|[ме].агистам|у
+  gramm: neg,cnject,prs,1,sg,and
+  gloss: NEG|CNJECT|PRS.1SG|and
  -flex: <0>на|[ме].агистӣ
   gramm: neg,cnject,prs,2,sg
   gloss: NEG|CNJECT|PRS.2SG
+ -flex: <0>на|[ме].агистӣ|ю
+  gramm: neg,cnject,prs,2,sg,and
+  gloss: NEG|CNJECT|PRS.2SG|and
  -flex: <0>на|[ме].агист
   gramm: neg,cnject,prs,3,sg
   gloss: NEG|CNJECT|PRS.3SG
+ -flex: <0>на|[ме].агист|у
+  gramm: neg,cnject,prs,3,sg,and
+  gloss: NEG|CNJECT|PRS.3SG|and
  -flex: <0>на|[ме].агистем
   gramm: neg,cnject,prs,1,pl
   gloss: NEG|CNJECT|PRS.1PL
+ -flex: <0>на|[ме].агистем|у
+  gramm: neg,cnject,prs,1,pl,and
+  gloss: NEG|CNJECT|PRS.1PL|and
  -flex: <0>на|[ме].агистед
   gramm: neg,cnject,prs,2,pl
   gloss: NEG|CNJECT|PRS.2PL
+ -flex: <0>на|[ме].агистед|у
+  gramm: neg,cnject,prs,2,pl,and
+  gloss: NEG|CNJECT|PRS.2PL|and
  -flex: <0>на|[ме].агистанд
   gramm: neg,cnject,prs,3,pl
   gloss: NEG|CNJECT|PRS.3pl
+ -flex: <0>на|[ме].агистанд|у
+  gramm: neg,cnject,prs,3,pl,and
+  gloss: NEG|CNJECT|PRS.3pl|and
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,sg
   gloss: NEG|CNJECT2|PRS.1SG
+ -flex: <0>на|[ме].агем|у
+  gramm: neg,cnject2,prs,1,sg,and
+  gloss: NEG|CNJECT2|PRS.1SG|and
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,pl
   gloss: NEG|CNJECT2|PRS.1PL
+ -flex: <0>на|[ме].агем|у
+  gramm: neg,cnject2,prs,1,pl,and
+  gloss: NEG|CNJECT2|PRS.1PL|and
  -flex: <0>на|[ме].агед
   gramm: neg,cnject2,prs,2,pl
   gloss: NEG|CNJECT2|PRS.2PL
+ -flex: <0>на|[ме].агед|у
+  gramm: neg,cnject2,prs,2,pl,and
+  gloss: NEG|CNJECT2|PRS.2PL|and
  -flex: <0>на|[ме].аген
   gramm: neg,cnject2,prs,3,pl
   gloss: NEG|CNJECT2|PRS.3pl
+ -flex: <0>на|[ме].аген|у
+  gramm: neg,cnject2,prs,3,pl,and
+  gloss: NEG|CNJECT2|PRS.3pl|and
  -flex: <1>на.ам
   gramm: neg,sbjv,1,sg
   gloss: NEG|SBJV.1SG
+ -flex: <1>на.ам|у
+  gramm: neg,sbjv,1,sg,and
+  gloss: NEG|SBJV.1SG|and
  -flex: <1>на.ӣ
   gramm: neg,sbjv,2,sg
   gloss: NEG|SBJV.2SG
+ -flex: <1>на.ӣ|ю
+  gramm: neg,sbjv,2,sg,and
+  gloss: NEG|SBJV.2SG|and
  -flex: <1>на.ад
   gramm: neg,sbjv,3,sg
   gloss: NEG|SBJV.3SG
+ -flex: <1>на.ад|у
+  gramm: neg,sbjv,3,sg,and
+  gloss: NEG|SBJV.3SG|and
  -flex: <1>на.яд
   gramm: neg,sbjv,3,sg
   gloss: NEG|SBJV.3SG
+ -flex: <1>на.яд|у
+  gramm: neg,sbjv,3,sg,and
+  gloss: NEG|SBJV.3SG|and
  -flex: <1>на.ем
   gramm: neg,sbjv,1,pl
   gloss: NEG|SBJV.1PL
+ -flex: <1>на.ем|у
+  gramm: neg,sbjv,1,pl,and
+  gloss: NEG|SBJV.1PL|and
  -flex: <1>на.ед
   gramm: neg,sbjv,2,pl
   gloss: NEG|SBJV.2PL
+ -flex: <1>на.ед|у
+  gramm: neg,sbjv,2,pl,and
+  gloss: NEG|SBJV.2PL|and
  -flex: <1>на.етон
   gramm: neg,sbjv,2,pl
   gloss: NEG|SBJV.2PL
+ -flex: <1>на.етон|у
+  gramm: neg,sbjv,2,pl,and
+  gloss: NEG|SBJV.2PL|and
  -flex: <1>на.анд
   gramm: neg,sbjv,3,pl
   gloss: NEG|SBJV.3PL
+ -flex: <1>на.анд|у
+  gramm: neg,sbjv,3,pl,and
+  gloss: NEG|SBJV.3PL|and
  -flex: <1>на.янд
   gramm: neg,sbjv,3,pl
   gloss: NEG|SBJV.3PL
+ -flex: <1>на.янд|у
+  gramm: neg,sbjv,3,pl,and
+  gloss: NEG|SBJV.3PL|and
  -flex: <1>ма.0
   gramm: neg,neg2,imp,2,sg
   gloss: NEG2|IMP.2SG
+ -flex: <1>ма.у
+  gramm: neg,neg2,imp,2,sg,and
+  gloss: NEG2|IMP.2SG|and
  -flex: <1>на.0
   gramm: neg,imp,2,sg
   gloss: NEG|IMP.2SG
+ -flex: <1>на.у
+  gramm: neg,imp,2,sg,and
+  gloss: NEG|IMP.2SG|and
  -flex: <1>ма.ед
   gramm: neg,neg2,imp,2,pl
   gloss: NEG2|IMP.2PL
+ -flex: <1>ма.ед|у
+  gramm: neg,neg2,imp,2,pl,and
+  gloss: NEG2|IMP.2PL|and
  -flex: <1>би.
   gramm: imp,sbjv
   gloss: IMP,SBJV
+ -flex: <1>би.ам
+  gramm: imp,sbjv,1,sg
+  gloss: IMP.SBJV|1SG
+ -flex: <1>би.ям
+  gramm: imp,sbjv,1,sg
+  gloss: IMP.SBJV|1SG
+ -flex: <1>би.ам|у
+  gramm: imp,sbjv,1,sg,and
+  gloss: IMP.SBJV|1SG|and
+ -flex: <1>би.ям|у
+  gramm: imp,sbjv,1,sg,and
+  gloss: IMP.SBJV|1SG|and
  -flex: <1>би.ед
   gramm: imp,sbjv,2,pl
   gloss: IMP.SBJV|2PL
+ -flex: <1>би.ед|у
+  gramm: imp,sbjv,2,pl,and
+  gloss: IMP.SBJV|2PL|and
  -flex: <1>би.ад
   gramm: sbjv,3,sg
   gloss: SBJV|3SG
+ -flex: <1>би.ад|у
+  gramm: sbjv,3,sg,and
+  gloss: SBJV|3SG|and
  -flex: <1>би.яд
   gramm: sbjv,3,sg
   gloss: SBJV|3SG
- -flex: <0>.aниам
+ -flex: <1>би.яд|у
+  gramm: sbjv,3,sg,and
+  gloss: SBJV|3SG|and
+ -flex: <0>.аниам
   gramm: int,1,sg
   gloss: INT.1SG
- -flex: <0>.aнистам
+ -flex: <0>.аниам|у
+  gramm: int,1,sg,and
+  gloss: INT.1SG|and
+ -flex: <0>.анистам
   gramm: int,1,sg
   gloss: INT.1SG
+ -flex: <0>.анистам|у
+  gramm: int,1,sg,and
+  gloss: INT.1SG|and
  -flex: <0>.аниӣ
   gramm: int,2,sg
   gloss: INT.2SG
+ -flex: <0>.аниӣ|ю
+  gramm: int,2,sg,and
+  gloss: INT.2SG|and
  -flex: <0>.анистӣ
   gramm: int,2,sg
   gloss: INT.2SG
+ -flex: <0>.анистӣ|ю
+  gramm: int,2,sg,and
+  gloss: INT.2SG|and
  -flex: <0>.анист
   gramm: int,3,sg
   gloss: INT.3SG
- -flex: <0>.aнием
+ -flex: <0>.анист|у
+  gramm: int,3,sg,and
+  gloss: INT.3SG|and
+ -flex: <0>.анием
   gramm: int,1,pl
   gloss: INT.1PL
- -flex: <0>.aнистем
+ -flex: <0>.анием|у
+  gramm: int,1,pl,and
+  gloss: INT.1PL|and
+ -flex: <0>.анистем
   gramm: int,1,pl
   gloss: INT.1PL
+ -flex: <0>.анистем|у
+  gramm: int,1,pl,and
+  gloss: INT.1PL|and
  -flex: <0>.аниед
   gramm: int,2,pl
   gloss: INT.2PL
+ -flex: <0>.аниед|у
+  gramm: int,2,pl,and
+  gloss: INT.2PL|and
  -flex: <0>.анистед
   gramm: int,2,pl
   gloss: INT.2PL
+ -flex: <0>.анистед|у
+  gramm: int,2,pl,and
+  gloss: INT.2PL|and
  -flex: <0>.анианд
   gramm: int,3,pl
   gloss: INT.3PL
+ -flex: <0>.анианд|у
+  gramm: int,3,pl,and
+  gloss: INT.3PL|and
  -flex: <0>.анистанд
   gramm: int,3,pl
   gloss: INT.3PL
- -flex: <0>на.aниам
+ -flex: <0>.анистанд|у
+  gramm: int,3,pl,and
+  gloss: INT.3PL|and
+ -flex: <0>на.аниам
   gramm: neg,int,1,sg
   gloss: NEG|INT.1SG
- -flex: <0>на.aнистам
+ -flex: <0>на.аниам|у
+  gramm: neg,int,1,sg,and
+  gloss: NEG|INT.1SG|and
+ -flex: <0>на.анистам
   gramm: neg,int,1,sg
   gloss: NEG|INT.1SG
+ -flex: <0>на.анистам|у
+  gramm: neg,int,1,sg,and
+  gloss: NEG|INT.1SG|and
  -flex: <0>на.аниӣ
   gramm: neg,int,2,sg
   gloss: NEG|INT.2SG
+ -flex: <0>на.аниӣ|ю
+  gramm: neg,int,2,sg,and
+  gloss: NEG|INT.2SG|and
  -flex: <0>на.анистӣ
   gramm: neg,int,2,sg
   gloss: NEG|INT.2SG
+ -flex: <0>на.анистӣ|ю
+  gramm: neg,int,2,sg,and
+  gloss: NEG|INT.2SG|and
  -flex: <0>на.анист
   gramm: neg,int,3,sg
   gloss: NEG|INT.3SG
- -flex: <0>на.aнием
+ -flex: <0>на.анист|у
+  gramm: neg,int,3,sg,and
+  gloss: NEG|INT.3SG|and
+ -flex: <0>на.анием
   gramm: neg,int,1,pl
   gloss: NEG|INT.1PL
- -flex: <0>на.aнистем
+ -flex: <0>на.анием|у
+  gramm: neg,int,1,pl,and
+  gloss: NEG|INT.1PL|and
+ -flex: <0>на.анистем
   gramm: neg,int,1,pl
   gloss: NEG|INT.1PL
+ -flex: <0>на.анистем|у
+  gramm: neg,int,1,pl,and
+  gloss: NEG|INT.1PL|and
  -flex: <0>на.аниед
   gramm: neg,int,2,pl
   gloss: NEG|INT.2PL
+ -flex: <0>на.аниед|у
+  gramm: neg,int,2,pl,and
+  gloss: NEG|INT.2PL|and
  -flex: <0>на.анистед
   gramm: neg,int,2,pl
   gloss: NEG|INT.2PL
+ -flex: <0>на.анистед|у
+  gramm: neg,int,2,pl,and
+  gloss: NEG|INT.2PL|and
  -flex: <0>на.анианд
   gramm: neg,int,3,pl
   gloss: NEG|INT.3PL
+ -flex: <0>на.анианд|у
+  gramm: neg,int,3,pl,and
+  gloss: NEG|INT.3PL|and
  -flex: <0>на.анистанд
   gramm: neg,int,3,pl
   gloss: NEG|INT.3PL  
+ -flex: <0>на.анистанд|у
+  gramm: neg,int,3,pl,and
+  gloss: NEG|INT.3PL|and
  -flex: <0>.aгистам
   gramm: cnject,pst,1,sg
   gloss: CNJECT.PST.1SG
+ -flex: <0>.aгистам|у
+  gramm: cnject,pst,1,sg,and
+  gloss: CNJECT.PST.1SG|and
  -flex: <0>.агистӣ
   gramm: cnject,pst,2,sg
   gloss: CNJECT.PST.2SG
+ -flex: <0>.агистӣ|ю
+  gramm: cnject,pst,2,sg,and
+  gloss: CNJECT.PST.2SG|and
  -flex: <0>.агист
   gramm: cnject,pst,3,sg
   gloss: CNJECT.PST.3SG
+ -flex: <0>.агист|у
+  gramm: cnject,pst,3,sg,and
+  gloss: CNJECT.PST.3SG|and
  -flex: <0>.aгистем
   gramm: cnject,pst,1,pl
   gloss: CNJECT.PST.1PL
+ -flex: <0>.aгистем|у
+  gramm: cnject,pst,1,pl,and
+  gloss: CNJECT.PST.1PL|and
  -flex: <0>.агистед
   gramm: cnject,pst,2,pl
   gloss: CNJECT.PST.2PL
+ -flex: <0>.агистед|у
+  gramm: cnject,pst,2,pl,and
+  gloss: CNJECT.PST.2PL|and
  -flex: <0>.агистанд
   gramm: cnject,pst,3,pl
   gloss: CNJECT.PST.3PL
+ -flex: <0>.агистанд|у
+  gramm: cnject,pst,3,pl,and
+  gloss: CNJECT.PST.3PL|and
  -flex: <0>.aгем
   gramm: cnject2,pst,1,sg
   gloss: CNJECT2.PST.1SG
+ -flex: <0>.aгем|у
+  gramm: cnject2,pst,1,sg,and
+  gloss: CNJECT2.PST.1SG|and
  -flex: <0>.aгем
   gramm: cnject2,pst,1,pl
   gloss: CNJECT2.PST.1PL
+ -flex: <0>.aгем|у
+  gramm: cnject2,pst,1,pl,and
+  gloss: CNJECT2.PST.1PL|and
  -flex: <0>.агед
   gramm: cnject2,pst,2,pl
   gloss: CNJECT2.PST.2PL
+ -flex: <0>.агед|у
+  gramm: cnject2,pst,2,pl,and
+  gloss: CNJECT2.PST.2PL|and
  -flex: <0>.аген
   gramm: cnject2,pst,3,pl
   gloss: CNJECT2.PST.3PL
+ -flex: <0>.аген|у
+  gramm: cnject2,pst,3,pl,and
+  gloss: CNJECT2.PST.3PL|and
  -flex: <0>[ме].агистам
   gramm: cnject,prs,1,sg
   gloss: CNJECT|PRS.1SG
+ -flex: <0>[ме].агистам|у
+  gramm: cnject,prs,1,sg,and
+  gloss: CNJECT|PRS.1SG|and
  -flex: <0>[ме].агистӣ
   gramm: cnject,prs,2,sg
   gloss: CNJECT|PRS.2SG
+ -flex: <0>[ме].агистӣ|ю
+  gramm: cnject,prs,2,sg,and
+  gloss: CNJECT|PRS.2SG|and
  -flex: <0>[ме].агист
   gramm: cnject,prs,3,sg
   gloss: CNJECT|PRS.3SG
+ -flex: <0>[ме].агист|у
+  gramm: cnject,prs,3,sg,and
+  gloss: CNJECT|PRS.3SG|and
  -flex: <0>[ме].агистем
   gramm: cnject,prs,1,pl
   gloss: CNJECT|PRS.1PL
+ -flex: <0>[ме].агистем|у
+  gramm: cnject,prs,1,pl,and
+  gloss: CNJECT|PRS.1PL|and
  -flex: <0>[ме].агистед
   gramm: cnject,prs,2,pl
   gloss: CNJECT|PRS.2PL
+ -flex: <0>[ме].агистед|у
+  gramm: cnject,prs,2,pl,and
+  gloss: CNJECT|PRS.2PL|and
  -flex: <0>[ме].агистанд
   gramm: cnject,prs,3,pl
   gloss: CNJECT|PRS.3PL
+ -flex: <0>[ме].агистанд|у
+  gramm: cnject,prs,3,pl,and
+  gloss: CNJECT|PRS.3PL|and
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,sg
   gloss: CNJECT2|PRS.1SG
+ -flex: <0>[ме].агем|у
+  gramm: cnject2,prs,1,sg,and
+  gloss: CNJECT2|PRS.1SG|and
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,pl
   gloss: CNJECT2|PRS.1PL
+ -flex: <0>[ме].агем|у
+  gramm: cnject2,prs,1,pl,and
+  gloss: CNJECT2|PRS.1PL|and
  -flex: <0>[ме].агед
   gramm: cnject2,prs,2,pl
   gloss: CNJECT2|PRS.2PL
+ -flex: <0>[ме].агед|у
+  gramm: cnject2,prs,2,pl,and
+  gloss: CNJECT2|PRS.2PL|and
  -flex: <0>[ме].аген
   gramm: cnject2,prs,3,pl
   gloss: CNJECT2|PRS.3PL
+ -flex: <0>[ме].аген|у
+  gramm: cnject2,prs,3,pl,and
+  gloss: CNJECT2|PRS.3PL|and
  -flex: <0>.а
   gramm: conv
   gloss: CONV
+ -flex: <0>ме.а
+  gramm: hab,conv
+  gloss: HAB.CONV
  -flex: <0>на.а
   gramm: conv,neg
   gloss: NEG|CONV
- -flex: <0>.aгӣ
-  gramm: part,part.mod
-  gloss: PART.MOD
- -flex: <0>ме.aгӣ
-  gramm: part,part.mod
-  gloss: HAB|PART.MOD
- -flex: <0>.aнӣ
-  gramm: part.fut
+ -flex: <0>.ашуда
+  gramm: pass,conv
+  gloss: PASS.CONV
+ -flex: <0>на.ашуда
+  gramm: pass,conv,neg
+  gloss: NEG|PASS.CONV
+ -flex: <0>.агӣ
+  gramm: part,part.mod,pst
+  gloss: PART.MOD.PST
+ -flex: <0>ме.агӣ
+  gramm: part,part.mod,prs
+  gloss: HAB|PART.MOD.PRS
+ -flex: <0>.анӣ
+  gramm: part,part.fut
   gloss: PART.FUT
- -flex: <1>.aнда
-  gramm: part.prs
+ -flex: <1>.анда
+  gramm: part,part.prs
   gloss: PART.PRS
  -flex: <1>.янда
-  gramm: part.prs
+  gramm: part,part.prs
   gloss: PART.PRS
+ -flex: <1>.он
+  gramm: ADV
+  gloss: ADV
+ -flex: <1>.ён
+  gramm: ADV
+  gloss: ADV
  -flex: <0>.ан<.>
   gramm: inf
   gloss: INF
@@ -1336,6 +1843,10 @@
   gloss: NEG|INF
   paradigm: N 
 -paradigm: DERIV
+ -flex: <0>.
+ -flex: <0>.у//.ю//.ву
+  gramm: and
+  gloss: and
  -flex: .<.>
   gram:
   paradigm: N
@@ -1366,6 +1877,10 @@
  -flex: .вар<.>
   gramm: ag
   gloss: AG6
+  paradigm: N
+ -flex: .кор<.>
+  gramm: ag
+  gloss: AG7
   paradigm: N
  -flex: .истон<.>
   gramm: place
@@ -1443,6 +1958,10 @@
   gramm: ADJ
   gloss: ADJ4
   paradigm: N
+ -flex: .ангӣ<.>
+  gramm: ADJ
+  gloss: ADJ5
+  paradigm: N
  -flex: .гун<.>
   gramm: ADJ
   gloss: similar
@@ -1457,7 +1976,27 @@
   paradigm: N
  -flex: .гӣ<.>
   gramm: ADJ
-  gloss: ADJ
+  gloss: ADJ0
+  paradigm: N
+ -flex: .монанд<.>
+  gramm: ADJ
+  gloss: similar2
+  paradigm: N
+ -flex: .ӣ<.>
+  gramm: N
+  gloss: ABS
+  paradigm: N
+ -flex: .вӣ<.>
+  gramm: N
+  gloss: ABS
+  paradigm: N
+ -flex: .гӣ<.>
+  gramm: N
+  gloss: ABS
+  paradigm: N
+ -flex: .манд<.>
+  gramm: N
+  gloss: have
   paradigm: N
  
  

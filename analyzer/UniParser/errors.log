@@ -1,11 +1,9 @@
 No correspondence between the inflexion (<0>.е|ро|ю) and the glosses (SG.INDEF¦OBJ.DEF) 
+No correspondence between the inflexion (<0>ме.а) and the glosses (HAB.CONV) 
 No obligatory fields in a lexeme: [{"name": "stem", "value": "байналмилал.", "content": null}, {"name": "gramm", "value": "N", "content": null}, {"name": "paradigm", "value": "DERIV", "content": null}, {"name": "trans_ru", "value": "Интернационал", "content": null}, {"name": "trans_en", "value": "Internationale", "content": null}]
 No obligatory fields in a lexeme: [{"name": "stem", "value": "байт.", "content": null}, {"name": "gramm", "value": "N", "content": null}, {"name": "paradigm", "value": "DERIV", "content": null}, {"name": "trans_ru", "value": "стих, состоящий из двух полустиший", "content": null}, {"name": "trans_en", "value": "a poem consisting of two hemistich", "content": null}]
 No obligatory fields in a lexeme: [{"name": "stem", "value": "байт.", "content": null}, {"name": "gramm", "value": "N,bodypart", "content": null}, {"name": "paradigm", "value": "DERIV", "content": null}, {"name": "trans_ru", "value": "брови", "content": null}, {"name": "trans_en", "value": "eyebrows", "content": null}]
 No obligatory fields in a lexeme: [{"name": "le.x", "value": "байтбандӣ", "content": null}, {"name": "stem", "value": "байтбандӣ.|байтбанди.", "content": null}, {"name": "gramm", "value": "N", "content": null}, {"name": "paradigm", "value": "DERIV", "content": null}, {"name": "trans_ru", "value": "сочинение стихов; композиция стиха", "content": null}, {"name": "trans_en", "value": "writing poems; structure of poem", "content": null}]
-Duplicate lemma: зафарьёб
-Duplicate stem in зафарьёб: "зафарьёб.//зафарёб."
-Duplicate gramtags: N,anim,hum in зафарьёб
 No paradigm named DERIV,ADJ
 No paradigm named DERIV,ADJ
 No paradigm named DERIV,ADJ
