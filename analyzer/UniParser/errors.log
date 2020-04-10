@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 No correspondence between the inflexion (<0>.е|ро|ю) and the glosses (SG.INDEF¦OBJ.DEF) 
 No correspondence between the inflexion (<0>ме.а) and the glosses (HAB.CONV) 
 No obligatory fields in a lexeme: [{"name": "stem", "value": "байналмилал.", "content": null}, {"name": "gramm", "value": "N", "content": null}, {"name": "paradigm", "value": "DERIV", "content": null}, {"name": "trans_ru", "value": "Интернационал", "content": null}, {"name": "trans_en", "value": "Internationale", "content": null}]
@@ -8,46 +9,31 @@ No paradigm named DERIV,ADJ
 No paradigm named DERIV,ADJ
 No paradigm named DERIV,ADJ
 No paradigm named DERIV,ADJ
+=======
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+>>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
 No paradigm named DERIV,ADV
 No paradigm named DERIV,ADV
 No paradigm named DERIV,ADV
 No paradigm named DERIV,ADV
-No paradigm named PRON
-No paradigm named PRON
-No paradigm named PRON
-No paradigm named PRON
-No paradigm named PRON
-No paradigm named PRON
-No paradigm named DERIV,ADJ
-No paradigm named DERIV,ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, N
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, ADJ
-No paradigm named DERIV, N
-No paradigm named DERIV, N
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
+No paradigm named ADJ
 No paradigm named AВО
 No paradigm named AВО
-No paradigm named PRON
-No paradigm named PRON
 No paradigm named DERIV, ADV
 No paradigm named DERIV, ADV
+<<<<<<< HEAD
 No paradigm named DERIV, N
 No paradigm named DERIV, N
 No paradigm named ADK
@@ -570,6 +556,142 @@ Wrong paradigm name: PRON
 Wrong paradigm name: PRON
 Wrong paradigm name: PRON
 Wrong paradigm name: PRON
+=======
+No paradigm named ADJ
+No paradigm named ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV,ADV
+Wrong paradigm name: DERIV,ADV
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV,ADV
+Wrong paradigm name: DERIV,ADV
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+Wrong paradigm name: DERIV, ADV
+>>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
@@ -584,6 +706,7 @@ Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
+<<<<<<< HEAD
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
 Wrong paradigm name: DERIV, ADV
@@ -836,3 +959,11 @@ Wrong paradigm name: DERIV,anim,hum,ADJ
 Wrong paradigm name: DERIV,anim,hum,ADJ
 Wrong paradigm name: DERIV,anim,hum,ADJ
 Wrong paradigm name: DERIV,anim,hum,ADJ
+=======
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+Wrong paradigm name: ADJ
+>>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
