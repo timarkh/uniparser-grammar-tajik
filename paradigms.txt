@@ -1803,39 +1803,84 @@
  -flex: <0>.а
   gramm: conv
   gloss: CONV
+ -flex: <0>.а|ву
+  gramm: conv,and
+  gloss: CONV|and
  -flex: <0>ме.а
   gramm: hab,conv
   gloss: HAB.CONV
+ -flex: <0>ме.а|ву
+  gramm: hab,conv,and
+  gloss: HAB.CONV|and
  -flex: <0>на.а
   gramm: conv,neg
   gloss: NEG|CONV
+ -flex: <0>на.а|ву
+  gramm: conv,neg,and
+  gloss: NEG|CONV|and
  -flex: <0>.ашуда
   gramm: pass,conv
   gloss: PASS.CONV
+ -flex: <0>.ашуда|ву
+  gramm: pass,conv,and
+  gloss: PASS.CONV|and
  -flex: <0>на.ашуда
   gramm: pass,conv,neg
   gloss: NEG|PASS.CONV
+ -flex: <0>на.ашуда|ву
+  gramm: pass,conv,neg,and
+  gloss: NEG|PASS.CONV|and
  -flex: <0>.агӣ
   gramm: part,part.mod,pst
   gloss: PART.MOD.PST
+ -flex: <0>.агӣ|ю
+  gramm: part,part.mod,pst,and
+  gloss: PART.MOD.PST|and
+ -flex: <0>.агӣ|ву
+  gramm: part,part.mod,pst,and
+  gloss: PART.MOD.PST|and
  -flex: <0>[ме].агӣ
   gramm: part,part.mod,prs
   gloss: HAB|PART.MOD.PRS
+ -flex: <0>[ме].агӣ|ю
+  gramm: part,part.mod,prs,and
+  gloss: HAB|PART.MOD.PRS|and
+ -flex: <0>[ме].агӣ|ву
+  gramm: part,part.mod,prs,and
+  gloss: HAB|PART.MOD.PRS|and
  -flex: <0>.анӣ
   gramm: part,part.fut
   gloss: PART.FUT
+ -flex: <0>.анӣ|ю
+  gramm: part,part.fut,and
+  gloss: PART.FUT|and
+ -flex: <0>.анӣ|ву
+  gramm: part,part.fut,and
+  gloss: PART.FUT|and
  -flex: <1>.анда
   gramm: part,part.prs
   gloss: PART.PRS
+ -flex: <1>.анда|у
+  gramm: part,part.prs,and
+  gloss: PART.PRS|and
  -flex: <1>.янда
   gramm: part,part.prs
   gloss: PART.PRS
+ -flex: <1>.янда|у
+  gramm: part,part.prs,and
+  gloss: PART.PRS|and
  -flex: <1>.он
   gramm: ADV
   gloss: ADV
+ -flex: <1>.он|у
+  gramm: ADV,and
+  gloss: ADV|and
  -flex: <1>.ён
   gramm: ADV
   gloss: ADV
+ -flex: <1>.ён|у
+  gramm: ADV,and
+  gloss: ADV|and
  -flex: <0>.ан<.>
   gramm: inf
   gloss: INF
