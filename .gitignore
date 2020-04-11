@@ -4,3 +4,4 @@
 analyzer/wordlist.csv
 analyzer/wordlist.csv-parsed.txt
 analyzer/wordlist.csv-unparsed.txt
+analyzer/wordlist.*

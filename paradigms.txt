@@ -1462,7 +1462,6 @@
  -flex: <1>на.яд
   gramm: neg,sbjv,3,sg
   gloss: NEG|SBJV.3SG
-<<<<<<< HEAD
  -flex: <1>на.яд|у
   gramm: neg,sbjv,3,sg,and
   gloss: NEG|SBJV.3SG|and
@@ -1496,34 +1495,16 @@
  -flex: <1>на.янд|у
   gramm: neg,sbjv,3,pl,and
   gloss: NEG|SBJV.3PL|and
-=======
- -flex: <1>на.ем
-  gramm: neg,sbjv,1,pl
-  gloss: NEG|SBJV.1PL
- -flex: <1>на.ед
-  gramm: neg,sbjv,2,pl
-  gloss: NEG|SBJV.2PL
- -flex: <1>на.етон
-  gramm: neg,sbjv,2,pl
-  gloss: NEG|SBJV.2PL
- -flex: <1>на.анд
-  gramm: neg,sbjv,3,pl
-  gloss: NEG|SBJV.3PL
- -flex: <1>на.янд
-  gramm: neg,sbjv,3,pl
-  gloss: NEG|SBJV.3PL
->>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
  -flex: <1>ма.0
   gramm: neg,neg2,imp,2,sg
   gloss: NEG2|IMP.2SG
- -flex: <1>ма.у
+ -flex: <1>ма.0|у
   gramm: neg,neg2,imp,2,sg,and
   gloss: NEG2|IMP.2SG|and
  -flex: <1>на.0
   gramm: neg,imp,2,sg
   gloss: NEG|IMP.2SG
-<<<<<<< HEAD
- -flex: <1>на.у
+ -flex: <1>на.0|у
   gramm: neg,imp,2,sg,and
   gloss: NEG|IMP.2SG|and
  -flex: <1>ма.ед
@@ -1532,11 +1513,6 @@
  -flex: <1>ма.ед|у
   gramm: neg,neg2,imp,2,pl,and
   gloss: NEG2|IMP.2PL|and
-=======
- -flex: <1>ма.ед
-  gramm: neg,imp,2,pl
-  gloss: NEG|IMP.2PL
->>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
  -flex: <1>би.
   gramm: imp,sbjv
   gloss: IMP,SBJV
@@ -1554,7 +1530,6 @@
   gloss: IMP.SBJV|1SG|and
  -flex: <1>би.ед
   gramm: imp,sbjv,2,pl
-<<<<<<< HEAD
   gloss: IMP.SBJV|2PL
  -flex: <1>би.ед|у
   gramm: imp,sbjv,2,pl,and
@@ -1572,17 +1547,6 @@
   gramm: sbjv,3,sg,and
   gloss: SBJV|3SG|and
  -flex: <0>.аниам
-=======
-  gloss: IMP/SBJV|2PL
- -flex: <1>би.ад
-  gramm: sbjv,3,sg
-  gloss: SBJV|3SG
- -flex: <1>би.яд
-  gramm: sbjv,3,sg
-  gloss: SBJV|3SG
-
- -flex: <0>.aниам
->>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
   gramm: int,1,sg
   gloss: INT.1SG
  -flex: <0>.аниам|у
@@ -1651,7 +1615,7 @@
  -flex: <0>на.аниам
   gramm: neg,int,1,sg
   gloss: NEG|INT.1SG
-<<<<<<< HEAD
+
  -flex: <0>на.аниам|у
   gramm: neg,int,1,sg,and
   gloss: NEG|INT.1SG|and
@@ -1715,38 +1679,7 @@
  -flex: <0>на.анистанд|у
   gramm: neg,int,3,pl,and
   gloss: NEG|INT.3PL|and
-=======
- -flex: <0>на.aнистам
-  gramm: neg,int,1,sg
-  gloss: NEG|INT.1SG
- -flex: <0>на.аниӣ
-  gramm: neg,int,2,sg
-  gloss: NEG|INT.2SG
- -flex: <0>на.анистӣ
-  gramm: neg,int,2,sg
-  gloss: NEG|INT.2SG
- -flex: <0>на.анист
-  gramm: neg,int,3,sg
-  gloss: NEG|INT.3SG
- -flex: <0>на.aнием
-  gramm: neg,int,1,pl
-  gloss: NEG|INT.1PL
- -flex: <0>на.aнистем
-  gramm: neg,int,1,pl
-  gloss: NEG|INT.1PL
- -flex: <0>на.аниед
-  gramm: neg,int,2,pl
-  gloss: NEG|INT.2PL
- -flex: <0>на.анистед
-  gramm: neg,int,2,pl
-  gloss: NEG|INT.2PL
- -flex: <0>на.анианд
-  gramm: neg,int,3,pl
-  gloss: NEG|INT.3PL
- -flex: <0>на.анистанд
-  gramm: neg,int,3,pl
-  gloss: NEG|INT.3PL  
->>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
+
  -flex: <0>.aгистам
   gramm: cnject,pst,1,sg
   gloss: CNJECT.PST.1SG
@@ -1876,7 +1809,6 @@
  -flex: <0>на.а
   gramm: conv,neg
   gloss: NEG|CONV
-<<<<<<< HEAD
  -flex: <0>.ашуда
   gramm: pass,conv
   gloss: PASS.CONV
@@ -1886,21 +1818,11 @@
  -flex: <0>.агӣ
   gramm: part,part.mod,pst
   gloss: PART.MOD.PST
- -flex: <0>ме.агӣ
+ -flex: <0>[ме].агӣ
   gramm: part,part.mod,prs
   gloss: HAB|PART.MOD.PRS
  -flex: <0>.анӣ
   gramm: part,part.fut
-=======
- -flex: <0>.aгӣ
-  gramm: part.pst
-  gloss: PART.PST
- -flex: <0>[ме].aгӣ
-  gramm: part.mod
-  gloss: PART.MOD
- -flex: <0>.aнӣ
-  gramm: part.fut
->>>>>>> 1c3e996c1ea211f9647023f88f01c9df75610086
   gloss: PART.FUT
  -flex: <1>.анда
   gramm: part,part.prs
