@@ -1801,52 +1801,52 @@
   gramm: cnject2,prs,3,pl,and
   gloss: CNJECT2|PRS.3PL|and
  -flex: <0>.а
-  gramm: conv
-  gloss: CONV
+  gramm: part.pst
+  gloss: PART.PST
  -flex: <0>.а|ву
-  gramm: conv,and
-  gloss: CONV|and
+  gramm: part.pst,and
+  gloss: PART.PST|and
  -flex: <0>ме.а
-  gramm: hab,conv
-  gloss: HAB.CONV
+  gramm: hab,part.pst,hab.part.pst
+  gloss: HAB.PART.PST
  -flex: <0>ме.а|ву
-  gramm: hab,conv,and
-  gloss: HAB.CONV|and
+  gramm: hab,part.pst,hab.part.pst,and
+  gloss: HAB.PART.PST|and
  -flex: <0>на.а
-  gramm: conv,neg
-  gloss: NEG|CONV
+  gramm: part.pst,neg
+  gloss: NEG|PART.PST
  -flex: <0>на.а|ву
-  gramm: conv,neg,and
-  gloss: NEG|CONV|and
+  gramm: part.pst,neg,and
+  gloss: NEG|PART.PST|and
  -flex: <0>.ашуда
-  gramm: pass,conv
-  gloss: PASS.CONV
+  gramm: pass,part.pst,pass.part.pst
+  gloss: PASS.PART.PST
  -flex: <0>.ашуда|ву
-  gramm: pass,conv,and
-  gloss: PASS.CONV|and
+  gramm: pass,part.pst,pass.part.pst,and
+  gloss: PASS.PART.PST|and
  -flex: <0>на.ашуда
-  gramm: pass,conv,neg
-  gloss: NEG|PASS.CONV
+  gramm: pass,part.pst,pass.part.pst,neg
+  gloss: NEG|PASS.PART.PST
  -flex: <0>на.ашуда|ву
-  gramm: pass,conv,neg,and
-  gloss: NEG|PASS.CONV|and
+  gramm: pass,part.pst,pass.part.pst,neg,and
+  gloss: NEG|PASS.PART.PST|and
  -flex: <0>.агӣ
-  gramm: part,part.mod,pst
+  gramm: part,part.mod.pst,part.mod
   gloss: PART.MOD.PST
  -flex: <0>.агӣ|ю
-  gramm: part,part.mod,pst,and
+  gramm: part,part.mod.pst,part.mod,and
   gloss: PART.MOD.PST|and
  -flex: <0>.агӣ|ву
-  gramm: part,part.mod,pst,and
+  gramm: part,part.mod.pst,part.mod,and
   gloss: PART.MOD.PST|and
  -flex: <0>[ме].агӣ
-  gramm: part,part.mod,prs
+  gramm: part,part.mod.prs,part.mod
   gloss: HAB|PART.MOD.PRS
  -flex: <0>[ме].агӣ|ю
-  gramm: part,part.mod,prs,and
+  gramm: part,part.mod.prs,part.mod,and
   gloss: HAB|PART.MOD.PRS|and
  -flex: <0>[ме].агӣ|ву
-  gramm: part,part.mod,prs,and
+  gramm: part,part.mod.prs,part.mod,and
   gloss: HAB|PART.MOD.PRS|and
  -flex: <0>.анӣ
   gramm: part,part.fut
@@ -1870,17 +1870,17 @@
   gramm: part,part.prs,and
   gloss: PART.PRS|and
  -flex: <1>.он
-  gramm: ADV
-  gloss: ADV
+  gramm: part,v.adv
+  gloss: V.ADV
  -flex: <1>.он|у
-  gramm: ADV,and
-  gloss: ADV|and
+  gramm: part,v.adv,and
+  gloss: V.ADV|and
  -flex: <1>.ён
-  gramm: ADV
-  gloss: ADV
+  gramm: part,v.adv
+  gloss: V.ADV
  -flex: <1>.ён|у
-  gramm: ADV,and
-  gloss: ADV|and
+  gramm: part,v.adv,and
+  gloss: V.ADV|and
  -flex: <0>.ан<.>
   gramm: inf
   gloss: INF
@@ -1898,151 +1898,151 @@
   gram:
   paradigm: N
  -flex: .ҷон<.>
-  gramm: demin
+  gramm: suf.n,demin,demin1
   gloss: DEMIN1
   paradigm: N
  -flex: .чӣ<.>
-  gramm: ag
+  gramm: suf.n,ag,ag1
   gloss: AG1
   paradigm: N
  -flex: .гар<.>
-  gramm: ag
+  gramm: suf.n,ag,ag2
   gloss: AG2
   paradigm: N
  -flex: .бон<.>
-  gramm: ag
+  gramm: suf.n,ag,ag3
   gloss: AG3
   paradigm: N
  -flex: .ор<.>
-  gramm: ag
+  gramm: suf.n,ag,ag4
   gloss: AG4
   paradigm: N
  -flex: .гор<.>
-  gramm: ag
+  gramm: suf.n,ag,ag5
   gloss: AG5
   paradigm: N
  -flex: .вар<.>
-  gramm: ag
+  gramm: suf.n,ag,ag6
   gloss: AG6
   paradigm: N
  -flex: .кор<.>
-  gramm: ag
+  gramm: suf.n,ag,ag7
   gloss: AG7
   paradigm: N
  -flex: .истон<.>
-  gramm: place
+  gramm: suf.n,place,place1
   gloss: PLACE1
   paradigm: N
  -flex: .стон<.>
-  gramm: place
+  gramm: suf.n,place,place1
   gloss: PLACE1
   paradigm: N
  -flex: .зор<.>
-  gramm: place
+  gramm: suf.n,place,place2
   gloss: PLACE2
   paradigm: N
  -flex: .сор<.>
-  gramm: place
+  gramm: suf.n,place,place3
   gloss: PLACE3
   paradigm: N
  -flex: .гоҳ<.>
-  gramm: place
+  gramm: suf.n,place,place4
   gloss: PLACE4
   paradigm: N
  -flex: .дон<.>
-  gramm: place
+  gramm: suf.n,place,place5
   gloss: PLACE5
   paradigm: N
  -flex: .хона<.>
-  gramm: house
+  gramm: suf.n,house
   gloss: house
   paradigm: N
  -flex: .ак<.>
-  gramm: demin
+  gramm: suf.n,demin,demin2
   gloss: DEMIN2
   paradigm: N
  -flex: .акак<.>
-  gramm: demin
+  gramm: suf.n,demin,demin2
   gloss: DEMIN2
   paradigm: N
  -flex: .ча<.>
-  gramm: demin
+  gramm: suf.n,demin,demin3
   gloss: DEMIN3
   paradigm: N
  -flex: .чек<.>
-  gramm: demin
+  gramm: suf.n,demin,demin3
   gloss: DEMIN3
   paradigm: N
  -flex: .ичек<.>
-  gramm: demin
+  gramm: suf.n,demin,demin3
   gloss: DEMIN3
   paradigm: N
  -flex: .ина<.>
-  gramm: demin
+  gramm: suf.n,demin,demin4
   gloss: DEMIN4
   paradigm: N
  -flex: .ин<.>
-  gramm: ADJ
-  gloss: ADJ1
+  gramm: suf.adj,adj6
+  gloss: ADJ6
   paradigm: N
  -flex: .гин<.>
-  gramm: ADJ
-  gloss: ADJ1
+  gramm: suf.adj,adj6
+  gloss: ADJ6
   paradigm: N
  -flex: .нок<.>
-  gramm: ADJ
+  gramm: suf.adj,adj2
   gloss: ADJ2
   paradigm: N
  -flex: .она<.>
-  gramm: ADJ
+  gramm: suf.adj,adj3
   gloss: ADJ3
   paradigm: N
  -flex: .гона<.>
-  gramm: ADJ
+  gramm: suf.adj,adj3
   gloss: ADJ3
   paradigm: N
  -flex: .онӣ<.>
-  gramm: ADJ
+  gramm: suf.adj,adj4
   gloss: ADJ4
   paradigm: N
  -flex: .ангӣ<.>
-  gramm: ADJ
+  gramm: suf.adj,adj5
   gloss: ADJ5
   paradigm: N
  -flex: .гун<.>
-  gramm: ADJ
+  gramm: suf.adj,similar
   gloss: similar
   paradigm: N
  -flex: .ӣ<.>
-  gramm: ADJ
-  gloss: ADJ0
+  gramm: suf.adj,adj1
+  gloss: ADJ1
   paradigm: N
  -flex: .вӣ<.>
-  gramm: ADJ
-  gloss: ADJ0
+  gramm: suf.adj,adj1
+  gloss: ADJ1
   paradigm: N
  -flex: .гӣ<.>
-  gramm: ADJ
-  gloss: ADJ0
+  gramm: suf.adj,adj1
+  gloss: ADJ1
   paradigm: N
  -flex: .монанд<.>
-  gramm: ADJ
+  gramm: suf.adj,similar2
   gloss: similar2
   paradigm: N
  -flex: .ӣ<.>
-  gramm: N
+  gramm: suf.n,abs
   gloss: ABS
   paradigm: N
  -flex: .вӣ<.>
-  gramm: N
+  gramm: suf.n,abs
   gloss: ABS
   paradigm: N
  -flex: .гӣ<.>
-  gramm: N
+  gramm: suf.n,abs
   gloss: ABS
   paradigm: N
  -flex: .манд<.>
-  gramm: N
+  gramm: suf.n,have
   gloss: have
   paradigm: N
  
