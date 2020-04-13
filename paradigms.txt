@@ -1,7 +1,7 @@
 -paradigm: ZERO
  -flex: <1>.и
   gramm: sg,ezf
-  gloss: SG,EZF
+  gloss: SG.EZF
  -flex: <0>.
  -flex: <0>.у//.ю//.ву
   gramm: and
@@ -11,7 +11,7 @@
   gramm: sg
  -flex: <1>.и
   gramm: sg,ezf
-  gloss: SG,EZF
+  gloss: SG.EZF
  -flex: <0>.у//.ю//.ву
   gramm: sg,and
   gloss: SG.and
@@ -188,7 +188,7 @@
   gloss: SUPER|REL
  -flex: <0>.и
   gramm: sg,ezf
-  gloss: SG,EZF
+  gloss: SG.EZF
  -flex: <0>.ҳо|и
   gramm: pl,ezf
   gloss: PL|EZF
@@ -1206,10 +1206,10 @@
   gloss: IMP.2SG.and
  -flex: <1>.ед
   gramm: imp,2,pl
-  gloss: IMP.2SG
+  gloss: IMP.2PL
  -flex: <1>.ед|у
   gramm: imp,2,pl,and
-  gloss: IMP.2SG|and
+  gloss: IMP.2PL|and
  -flex: <0>на.
   gramm: neg
   gloss: NEG
@@ -1515,7 +1515,7 @@
   gloss: NEG2|IMP.2PL|and
  -flex: <1>би.
   gramm: imp,sbjv
-  gloss: IMP,SBJV
+  gloss: IMP.SBJV
  -flex: <1>би.ам
   gramm: imp,sbjv,1,sg
   gloss: IMP.SBJV|1SG
@@ -1525,6 +1525,12 @@
  -flex: <1>би.ам|у
   gramm: imp,sbjv,1,sg,and
   gloss: IMP.SBJV|1SG|and
+ -flex: <1>би.ем
+  gramm: imp,sbjv,1,pl
+  gloss: IMP.SBJV|1PL
+ -flex: <1>би.ем|у
+  gramm: imp,sbjv,1,pl,and
+  gloss: IMP.SBJV|1PL|and
  -flex: <1>би.ям|у
   gramm: imp,sbjv,1,sg,and
   gloss: IMP.SBJV|1SG|and
@@ -1535,17 +1541,23 @@
   gramm: imp,sbjv,2,pl,and
   gloss: IMP.SBJV|2PL|and
  -flex: <1>би.ад
-  gramm: sbjv,3,sg
-  gloss: SBJV|3SG
+  gramm: imp,sbjv,3,sg
+  gloss: IMP.SBJV|3SG
+ -flex: <1>би.анд
+  gramm: imp,sbjv,3,pl
+  gloss: IMP.SBJV|3PL
+ -flex: <1>би.анд|у
+  gramm: imp,sbjv,3,pl,and
+  gloss: IMP.SBJV|3PL|and
  -flex: <1>би.ад|у
-  gramm: sbjv,3,sg,and
-  gloss: SBJV|3SG|and
+  gramm: imp,sbjv,3,sg,and
+  gloss: IMP.SBJV|3SG|and
  -flex: <1>би.яд
-  gramm: sbjv,3,sg
-  gloss: SBJV|3SG
+  gramm: imp,sbjv,3,sg
+  gloss: IMP.SBJV|3SG
  -flex: <1>би.яд|у
-  gramm: sbjv,3,sg,and
-  gloss: SBJV|3SG|and
+  gramm: imp,sbjv,3,sg,and
+  gloss: IMP.SBJV|3SG|and
  -flex: <0>.аниам
   gramm: int,1,sg
   gloss: INT.1SG
@@ -1615,7 +1627,6 @@
  -flex: <0>на.аниам
   gramm: neg,int,1,sg
   gloss: NEG|INT.1SG
-
  -flex: <0>на.аниам|у
   gramm: neg,int,1,sg,and
   gloss: NEG|INT.1SG|and
@@ -1841,13 +1852,13 @@
   gloss: PART.MOD.PST|and
  -flex: <0>[ме].агӣ
   gramm: part,part.mod.prs,part.mod
-  gloss: HAB|PART.MOD.PRS
+  gloss: PART.MOD.PRS
  -flex: <0>[ме].агӣ|ю
   gramm: part,part.mod.prs,part.mod,and
-  gloss: HAB|PART.MOD.PRS|and
+  gloss: PART.MOD.PRS|and
  -flex: <0>[ме].агӣ|ву
   gramm: part,part.mod.prs,part.mod,and
-  gloss: HAB|PART.MOD.PRS|and
+  gloss: PART.MOD.PRS|and
  -flex: <0>.анӣ
   gramm: part,part.fut
   gloss: PART.FUT
@@ -1955,7 +1966,7 @@
   paradigm: N
  -flex: .хона<.>
   gramm: suf.n,house
-  gloss: house
+  gloss: HOUSE
   paradigm: N
  -flex: .ак<.>
   gramm: suf.n,demin,demin2
@@ -2011,7 +2022,7 @@
   paradigm: N
  -flex: .гун<.>
   gramm: suf.adj,similar
-  gloss: similar
+  gloss: SIMILAR
   paradigm: N
  -flex: .ӣ<.>
   gramm: suf.adj,adj1
@@ -2027,7 +2038,7 @@
   paradigm: N
  -flex: .монанд<.>
   gramm: suf.adj,similar2
-  gloss: similar2
+  gloss: SIMILAR2
   paradigm: N
  -flex: .ӣ<.>
   gramm: suf.n,abs
@@ -2043,7 +2054,7 @@
   paradigm: N
  -flex: .манд<.>
   gramm: suf.n,have
-  gloss: have
+  gloss: HAVE
   paradigm: N
  
  
