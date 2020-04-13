@@ -16,97 +16,97 @@
   gramm: sg,and
   gloss: SG.and
  -flex: <0>.ам
-  gramm: sg,cop,1,sg
+  gramm: sg,cop,cop.encl,prs,1,sg
   gloss: SG.COP.1SG
  -flex: <0>.ӣ
-  gramm: sg,cop,2,sg
+  gramm: sg,cop,cop.encl,prs,2,sg
   gloss: SG.COP.2SG
  -flex: <0>.ст
-  gramm: sg,cop,3,sg
+  gramm: sg,cop,cop.encl,prs,3,sg
   gloss: SG.COP.3SG
  -flex: <0>.ем
-  gramm: sg,cop,1,pl
+  gramm: sg,cop,cop.encl,prs,1,pl
   gloss: SG.COP.1PL
  -flex: <0>.ед
-  gramm: sg,cop,2,pl
+  gramm: sg,cop,cop.encl,prs,2,pl
   gloss: SG.COP.2PL
  -flex: <0>.анд
-  gramm: sg,cop,3,pl
+  gramm: sg,cop,cop.encl,prs,3,pl
   gloss: SG.COP.3PL
  -flex: <0>.ҳо
   gramm: pl
   gloss: PL
  -flex: <0>.ҳо|ам
-  gramm: pl,cop,1,sg
+  gramm: pl,cop,cop.encl,prs,1,sg
   gloss: PL|COP.1SG
  -flex: <0>.ҳо|ӣ
-  gramm: pl,cop,2,sg
+  gramm: pl,cop,cop.encl,prs,2,sg
   gloss: PL|COP.2SG
  -flex: <0>.ҳо|ст
-  gramm: pl,cop,3,sg
+  gramm: pl,cop,cop.encl,prs,3,sg
   gloss: PL|COP.3SG
  -flex: <0>.ҳо|ем
-  gramm: pl,cop,1,pl
+  gramm: pl,cop,cop.encl,prs,1,pl
   gloss: PL|COP.1PL
  -flex: <0>.ҳо|ед
-  gramm: pl,cop,2,pl
+  gramm: pl,cop,cop.encl,prs,2,pl
   gloss: PL|COP.2PL
  -flex: <0>.ҳо|анд
-  gramm: pl,cop,3,pl
+  gramm: pl,cop,cop.encl,prs,3,pl
   gloss: PL|COP.3PL
  -flex: <0>.от//.ҷот//.вот//.ёт
   gramm: pl.ar,pl
   gloss: PL.ar
  -flex: <0>.от|ам//.ҷот|ам//.вот|ам//.ёт|ам
-  gramm: pl.ar,pl,cop,1,sg
+  gramm: pl.ar,pl,cop,cop.encl,prs,1,sg
   gloss: PL.ar|COP.1SG
  -flex: <0>.от|ӣ//.ҷот|ӣ//.вот|ӣ//.ёт|ӣ
-  gramm: pl.ar,pl,cop,2,sg
+  gramm: pl.ar,pl,cop,cop.encl,prs,2,sg
   gloss: PL.ar|COP.2SG
  -flex: <0>.от|ем//.ҷот|ем//.вот|ем//.ёт|ем
-  gramm: pl.ar,pl,cop,1,pl
+  gramm: pl.ar,pl,cop,cop.encl,prs,1,pl
   gloss: PL.ar|COP.1PL
  -flex: <0>.от|ед//.ҷот|ед//.вот|ед//.ёт|ед
-  gramm: pl.ar,pl,cop,2,pl
+  gramm: pl.ar,pl,cop,cop.encl,prs,2,pl
   gloss: PL.ar|COP.2PL
  -flex: <0>.от|анд//.ҷот|анд//.вот|анд//.ёт|анд
-  gramm: pl.ar,pl,cop,3,pl
+  gramm: pl.ar,pl,cop,cop.encl,prs,3,pl
   gloss: PL.ar|COP.3PL
  -flex: <0>.он//.гон//.вон//.ён
   gramm: pl.anim,pl
   gloss: PL.anim
  -flex: <0>.он|ам//.гон|ам//.вон|ам//.ён|ам
-  gramm: pl.anim,pl,cop,1,sg
+  gramm: pl.anim,pl,cop,cop.encl,prs,1,sg
   gloss: PL.anim|COP.1SG
  -flex: <0>.он|ӣ//.гон|ӣ//.вон|ӣ//.ён|ӣ
-  gramm: pl.anim,pl,cop,2,sg
+  gramm: pl.anim,pl,cop,cop.encl,prs,2,sg
   gloss: PL.anim|COP.2SG
  -flex: <0>.он|ем//.гон|ем//.вон|ем//.ён|ем
-  gramm: pl.anim,pl,cop,1,pl
+  gramm: pl.anim,pl,cop,cop.encl,prs,1,pl
   gloss: PL.anim|COP.1PL
  -flex: <0>.он|ед//.гон|ед//.вон|ед//.ён|ед
-  gramm: pl.anim,pl,cop,2,pl
+  gramm: pl.anim,pl,cop,cop.encl,prs,2,pl
   gloss: PL.anim|COP.2PL
  -flex: <0>.он|анд//.гон|анд//.вон|анд//.ён|анд
-  gramm: pl.anim,pl,cop,3,pl
+  gramm: pl.anim,pl,cop,cop.encl,prs,3,pl
   gloss: PL.anim|COP.3PL
  -flex: <0>.ин
   gramm: pl.ar.m,pl
   gloss: PL.ar.m
  -flex: <0>.ин|ам
-  gramm: pl.ar.m,pl,cop,1,sg
+  gramm: pl.ar.m,pl,cop,cop.encl,prs,1,sg
   gloss: PL.ar.m|COP.1SG
  -flex: <0>.ин|ӣ
-  gramm: pl.ar.m,pl,cop,2,sg
+  gramm: pl.ar.m,pl,cop,cop.encl,prs,2,sg
   gloss: PL.ar.m|COP.2SG
  -flex: <0>.ин|ем
-  gramm: pl.ar.m,pl,cop,1,pl
+  gramm: pl.ar.m,pl,cop,cop.encl,prs,1,pl
   gloss: PL.ar.m|COP.1PL
  -flex: <0>.ин|ед
-  gramm: pl.ar.m,pl,cop,2,pl
+  gramm: pl.ar.m,pl,cop,cop.encl,prs,2,pl
   gloss: PL.ar.m|COP.2PL
  -flex: <0>.ин|анд
-  gramm: pl.ar.m,pl,cop,3,pl
+  gramm: pl.ar.m,pl,cop,cop.encl,prs,3,pl
   gloss: PL.ar.m|COP.3PL
  -flex: <0>.е
   gramm: sg,indef
@@ -142,37 +142,37 @@
   gramm: compar
   gloss: COMPAR
  -flex: <0>.тар|ам
-  gramm: compar,cop,1,sg
+  gramm: compar,cop,cop.encl,prs,1,sg
   gloss: COMPAR|COP.1SG
  -flex: <0>.тар|ӣ
-  gramm: compar,cop,2,sg
+  gramm: compar,cop,cop.encl,prs,2,sg
   gloss: COMPAR|COP.2SG
  -flex: <0>.тар|ем
-  gramm: compar,cop,1,pl
+  gramm: compar,cop,cop.encl,prs,1,pl
   gloss: COMPAR|COP.1PL
  -flex: <0>.тар|ед
-  gramm: compar,cop,2,pl
+  gramm: compar,cop,cop.encl,prs,2,pl
   gloss: COMPAR|COP.2PL
  -flex: <0>.тар|анд
-  gramm: compar,cop,3,pl
+  gramm: compar,cop,cop.encl,prs,3,pl
   gloss: COMPAR|COP.3PL
  -flex: <0>.тарин
   gramm: super
   gloss: SUPER
  -flex: <0>.тарин|ам
-  gramm: super,cop,1,sg
+  gramm: super,cop,cop.encl,prs,1,sg
   gloss: SUPER|COP.1SG
  -flex: <0>.тарин|ӣ
-  gramm: super,cop,2,sg
+  gramm: super,cop,cop.encl,prs,2,sg
   gloss: SUPER|COP.2SG
  -flex: <0>.тарин|ем
-  gramm: super,cop,1,pl
+  gramm: super,cop,cop.encl,prs,1,pl
   gloss: SUPER|COP.1PL
  -flex: <0>.тарин|ед
-  gramm: super,cop,2,pl
+  gramm: super,cop,cop.encl,prs,2,pl
   gloss: SUPER|COP.2PL
  -flex: <0>.тарин|анд
-  gramm: super,cop,3,pl
+  gramm: super,cop,cop.encl,prs,3,pl
   gloss: SUPER|COP.3PL
  -flex: <0>.тар|е
   gramm: compar,indef
