@@ -1,38 +1,38 @@
 -paradigm: ZERO
  -flex: <1>.и
   gramm: sg,ezf
-  gloss: SG.EZF
+  gloss: EZF
  -flex: <0>.
  -flex: <0>.у//.ю//.ву
-  gramm: and
+  gramm: sg,and
   gloss: and
 -paradigm: N
  -flex: <0>.
   gramm: sg
  -flex: <1>.и
   gramm: sg,ezf
-  gloss: SG.EZF
+  gloss: EZF
  -flex: <0>.у//.ю//.ву
   gramm: sg,and
-  gloss: SG.and
+  gloss: and
  -flex: <0>.ам
   gramm: sg,cop,cop.encl,prs,1,sg
-  gloss: SG.COP.1SG
+  gloss: COP.1SG
  -flex: <0>.ӣ
   gramm: sg,cop,cop.encl,prs,2,sg
-  gloss: SG.COP.2SG
+  gloss: COP.2SG
  -flex: <0>.ст
   gramm: sg,cop,cop.encl,prs,3,sg
-  gloss: SG.COP.3SG
+  gloss: COP.3SG
  -flex: <0>.ем
   gramm: sg,cop,cop.encl,prs,1,pl
-  gloss: SG.COP.1PL
+  gloss: COP.1PL
  -flex: <0>.ед
   gramm: sg,cop,cop.encl,prs,2,pl
-  gloss: SG.COP.2PL
+  gloss: COP.2PL
  -flex: <0>.анд
   gramm: sg,cop,cop.encl,prs,3,pl
-  gloss: SG.COP.3PL
+  gloss: COP.3PL
  -flex: <0>.ҳо
   gramm: pl
   gloss: PL
@@ -110,10 +110,10 @@
   gloss: PL.ar.m|COP.3PL
  -flex: <0>.е
   gramm: sg,indef
-  gloss: SG.INDEF
+  gloss: INDEF
  -flex: <0>.е
   gramm: sg,rel
-  gloss: SG.REL
+  gloss: REL
  -flex: <0>.ҳо|е
   gramm: pl,indef
   gloss: PL|INDEF
@@ -139,56 +139,56 @@
   gramm: pl.ar.m,pl,rel
   gloss: PL.ar.m|REL
  -flex: <0>.тар
-  gramm: compar
+  gramm: sg,compar
   gloss: COMPAR
  -flex: <0>.тар|ам
-  gramm: compar,cop,cop.encl,prs,1,sg
+  gramm: sg,compar,cop,cop.encl,prs,1,sg
   gloss: COMPAR|COP.1SG
  -flex: <0>.тар|ӣ
-  gramm: compar,cop,cop.encl,prs,2,sg
+  gramm: sg,compar,cop,cop.encl,prs,2,sg
   gloss: COMPAR|COP.2SG
  -flex: <0>.тар|ем
-  gramm: compar,cop,cop.encl,prs,1,pl
+  gramm: sg,compar,cop,cop.encl,prs,1,pl
   gloss: COMPAR|COP.1PL
  -flex: <0>.тар|ед
-  gramm: compar,cop,cop.encl,prs,2,pl
+  gramm: sg,compar,cop,cop.encl,prs,2,pl
   gloss: COMPAR|COP.2PL
  -flex: <0>.тар|анд
-  gramm: compar,cop,cop.encl,prs,3,pl
+  gramm: sg,compar,cop,cop.encl,prs,3,pl
   gloss: COMPAR|COP.3PL
  -flex: <0>.тарин
-  gramm: super
+  gramm: sg,super
   gloss: SUPER
  -flex: <0>.тарин|ам
-  gramm: super,cop,cop.encl,prs,1,sg
+  gramm: sg,super,cop,cop.encl,prs,1,sg
   gloss: SUPER|COP.1SG
  -flex: <0>.тарин|ӣ
-  gramm: super,cop,cop.encl,prs,2,sg
+  gramm: sg,super,cop,cop.encl,prs,2,sg
   gloss: SUPER|COP.2SG
  -flex: <0>.тарин|ем
-  gramm: super,cop,cop.encl,prs,1,pl
+  gramm: sg,super,cop,cop.encl,prs,1,pl
   gloss: SUPER|COP.1PL
  -flex: <0>.тарин|ед
-  gramm: super,cop,cop.encl,prs,2,pl
+  gramm: sg,super,cop,cop.encl,prs,2,pl
   gloss: SUPER|COP.2PL
  -flex: <0>.тарин|анд
-  gramm: super,cop,cop.encl,prs,3,pl
+  gramm: sg,super,cop,cop.encl,prs,3,pl
   gloss: SUPER|COP.3PL
  -flex: <0>.тар|е
-  gramm: compar,indef
+  gramm: sg,compar,indef
   gloss: COMPAR|INDEF
  -flex: <0>.тарин|е
-  gramm: super,indef
+  gramm: sg,super,indef
   gloss: SUPER|INDEF
  -flex: <0>.тар|е
-  gramm: compar,rel
+  gramm: sg,compar,rel
   gloss: COMPAR|REL
  -flex: <0>.тарин|е
-  gramm: super,rel
+  gramm: sg,super,rel
   gloss: SUPER|REL
  -flex: <0>.и
   gramm: sg,ezf
-  gloss: SG.EZF
+  gloss: EZF
  -flex: <0>.ҳо|и
   gramm: pl,ezf
   gloss: PL|EZF
@@ -202,14 +202,14 @@
   gramm: pl.ar.m,pl,ezf
   gloss: PL.ar.m|EZF
  -flex: <0>.тар|и
-  gramm: compar,ezf
+  gramm: sg,compar,ezf
   gloss: COMPAR|EZF
  -flex: <0>.тарин|и
-  gramm: super,ezf
+  gramm: sg,super,ezf
   gloss: SUPER|EZF
  -flex: <0>.ро
   gramm: sg,obj.def
-  gloss: SG.OBJ.DEF
+  gloss: OBJ.DEF
  -flex: <0>.ҳо|ро
   gramm: pl,obj.def
   gloss: PL|OBJ.DEF
@@ -224,10 +224,10 @@
   gloss: PL.ar.m|OBJ.DEF
  -flex: <0>.е|ро
   gramm: sg,indef,obj.def
-  gloss: SG.INDEF|OBJ.DEF
+  gloss: INDEF|OBJ.DEF
  -flex: <0>.е|ро
   gramm: sg,rel,obj.def
-  gloss: SG.REL|OBJ.DEF
+  gloss: REL|OBJ.DEF
  -flex: <0>.ҳо|е|ро
   gramm: pl,indef,obj.def
   gloss: PL|INDEF|OBJ.DEF
@@ -253,22 +253,22 @@
   gramm: pl.ar.m,pl,rel,obj.def
   gloss: PL.ar.m|REL|OBJ.DEF
  -flex: <0>.тар|ро
-  gramm: compar,obj.def
+  gramm: sg,compar,obj.def
   gloss: COMPAR|OBJ.DEF
  -flex: <0>.тарин|ро
-  gramm: super,obj.def
+  gramm: sg,super,obj.def
   gloss: SUPER|OBJ.DEF
  -flex: <0>.тар|е|ро
-  gramm: compar,indef,obj.def
+  gramm: sg,compar,indef,obj.def
   gloss: COMPAR|INDEF|OBJ.DEF
  -flex: <0>.тарин|е|ро
-  gramm: super,indef,obj.def
+  gramm: sg,super,indef,obj.def
   gloss: SUPER|INDEF|OBJ.DEF
  -flex: <0>.тар|е|ро
-  gramm: compar,rel,obj.def
+  gramm: sg,compar,rel,obj.def
   gloss: COMPAR|REL|OBJ.DEF
  -flex: <0>.тарин|е|ро
-  gramm: super,rel,obj.def
+  gramm: sg,super,rel,obj.def
   gloss: SUPER|REL|OBJ.DEF
  -flex: <0>.хо|е|ро
   gramm: pl,indef,obj.def
@@ -289,10 +289,10 @@
   gramm: pl.ar.m,pl,poss,poss.1,poss.sg
   gloss: PL.ar.m|POSS.1SG
  -flex: <0>.тар|ам
-  gramm: compar,poss,poss.sg,poss.1
+  gramm: sg,compar,poss,poss.sg,poss.1
   gloss: COMPAR|POSS.1SG
  -flex: <0>.тарин|ам
-  gramm: super,poss,poss.sg,poss.1
+  gramm: sg,super,poss,poss.sg,poss.1
   gloss: SUPER|POSS.1SG
  -flex: <0>.ам|ро
   gramm: sg,obj.def,poss,poss.sg,poss.1
@@ -310,10 +310,10 @@
   gramm: pl.ar.m,pl,poss,poss.1,poss.sg,obj.def
   gloss: PL.ar.m|POSS.1SG|OBJ.DEF
  -flex: <0>.тар|ам|ро
-  gramm: compar,obj.def,poss,poss.1,poss.sg
+  gramm: sg,compar,obj.def,poss,poss.1,poss.sg
   gloss: COMPAR|POSS.1SG|OBJ.DEF
  -flex: <0>.тарин|ам|ро
-  gramm: super,obj.def,poss,poss.1,poss.sg
+  gramm: sg,super,obj.def,poss,poss.1,poss.sg
   gloss: SUPER|POSS.1SG|OBJ.DEF
  -flex: <0>.ат//.ят
   gramm: sg,poss,poss.sg,poss.2
@@ -331,10 +331,10 @@
   gramm: pl.ar.m,pl,poss,poss.sg,poss.2
   gloss: PL.ar.m|POSS.2SG
  -flex: <0>.тар|ат
-  gramm: compar,poss,poss.sg,poss.2
+  gramm: sg,compar,poss,poss.sg,poss.2
   gloss: COMPAR|POSS.2SG
  -flex: <0>.тарин|ат
-  gramm: super,poss,poss.sg,poss.2
+  gramm: sg,super,poss,poss.sg,poss.2
   gloss: SUPER|POSS.2SG
  -flex: <0>.ат|ро
   gramm: sg,poss,poss.sg,poss.2,obj.def
@@ -352,10 +352,10 @@
   gramm: pl.ar.m,pl,poss,poss.sg,poss.2,obj.def
   gloss: PL.ar.m|POSS.2SG|OBJ.DEF
  -flex: <0>.тар|ат|ро
-  gramm: compar,poss,poss.sg,poss.2,obj.def
+  gramm: sg,compar,poss,poss.sg,poss.2,obj.def
   gloss: COMPAR|POSS.2SG|OBJ.DEF
  -flex: <0>.тарин|ат|ро
-  gramm: super,poss,poss.sg,poss.2,obj.def
+  gramm: sg,super,poss,poss.sg,poss.2,obj.def
   gloss: SUPER|POSS.2SG|OBJ.DEF
  -flex: <0>.аш//.яш
   gramm: sg,poss,poss.3,poss.sg
@@ -373,10 +373,10 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.sg
   gloss: PL.ar.m|POSS.3SG
  -flex: <0>.тар|аш
-  gramm: compar,poss,poss.3,poss.sg
+  gramm: sg,compar,poss,poss.3,poss.sg
   gloss: COMPAR|POSS.3SG
  -flex: <0>.тарин|аш
-  gramm: super,poss,poss.3,poss.sg
+  gramm: sg,super,poss,poss.3,poss.sg
   gloss: SUPER|POSS.3SG
  -flex: <0>.аш|ро
   gramm: sg,poss,poss.3,poss.sg,obj.def
@@ -394,10 +394,10 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.sg,obj.def
   gloss: PL.ar.m|POSS.3SG|OBJ.DEF
  -flex: <0>.тар|аш|ро
-  gramm: compar,poss,poss.3,poss.sg,obj.def
+  gramm: sg,compar,poss,poss.3,poss.sg,obj.def
   gloss: COMPAR|POSS.3SG|OBJ.DEF
  -flex: <0>.тарин|аш|ро
-  gramm: super,poss,poss.3,poss.sg,obj.def
+  gramm: sg,super,poss,poss.3,poss.sg,obj.def
   gloss: SUPER|POSS.3SG|OBJ.DEF
  -flex: <0>.амон//.ямон
   gramm: sg,poss,poss.1,poss.pl
@@ -418,7 +418,7 @@
   gramm: compar,poss,poss.1,poss.pl
   gloss: COMPAR|POSS.1PL
  -flex: <0>.тарин|амон
-  gramm: super,poss,poss.1,poss.pl
+  gramm: sg,super,poss,poss.1,poss.pl
   gloss: SUPER|POSS.1PL
  -flex: <0>.амон|ро
   gramm: sg,poss,poss.1,poss.pl,obj.def
@@ -436,10 +436,10 @@
   gramm: pl.ar.m,pl,poss,poss.1,poss.pl,obj.def
   gloss: PL.ar.m|POSS.1PL|OBJ.DEF
  -flex: <0>.тар|амон|ро
-  gramm: compar,poss,poss.1,poss.pl,obj.def
+  gramm: sg,compar,poss,poss.1,poss.pl,obj.def
   gloss: COMPAR|POSS.1PL|OBJ.DEF
  -flex: <0>.тарин|амон|ро
-  gramm: super,poss,poss.1,poss.pl,obj.def
+  gramm: sg,super,poss,poss.1,poss.pl,obj.def
   gloss: SUPER|POSS.1PL|OBJ.DEF
  -flex: <0>.атон//.ятон
   gramm: sg,poss.2pl,poss,poss.2,poss.pl
@@ -457,10 +457,10 @@
   gramm: pl.ar.m,pl,poss.2pl,poss,poss.2,poss.pl
   gloss: PL.ar.m|POSS.2PL
  -flex: <0>.тар|атон
-  gramm: compar,poss.2pl,poss,poss.2,poss.pl
+  gramm: sg,compar,poss.2pl,poss,poss.2,poss.pl
   gloss: COMPAR|POSS.2PL
  -flex: <0>.тарин|атон
-  gramm: super,poss.2pl,poss,poss.2,poss.pl
+  gramm: sg,super,poss.2pl,poss,poss.2,poss.pl
   gloss: SUPER|POSS.2PL
  -flex: <0>.атон|ро
   gramm: sg,poss.2pl,poss,poss.2,poss.pl,obj.def
@@ -478,10 +478,10 @@
   gramm: pl.ar.m,pl,poss.2pl,poss,poss.2,poss.pl,obj.def
   gloss: PL.ar.m|POSS.2PL|OBJ.DEF
  -flex: <0>.тар|атон|ро
-  gramm: compar,poss.2pl,poss,poss.2,poss.pl,obj.def
+  gramm: sg,compar,poss.2pl,poss,poss.2,poss.pl,obj.def
   gloss: COMPAR|POSS.2PL|OBJ.DEF
  -flex: <0>.тарин|атон|ро
-  gramm: super,poss.2pl,poss,poss.2,poss.pl,obj.def
+  gramm: sg,super,poss.2pl,poss,poss.2,poss.pl,obj.def
   gloss: SUPER|POSS.2PL|OBJ.DEF
  -flex: <0>.ашон//.яшон
   gramm: sg,poss,poss.3,poss.pl
@@ -499,10 +499,10 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.pl
   gloss: PL.ar.m|POSS.3PL
  -flex: <0>.тар|ашон
-  gramm: compar,poss,poss.3,poss.pl
+  gramm: sg,compar,poss,poss.3,poss.pl
   gloss: COMPAR|POSS.3PL
  -flex: <0>.тарин|ашон
-  gramm: super,poss,poss.3,poss.pl
+  gramm: sg,super,poss,poss.3,poss.pl
   gloss: SUPER|POSS.3PL
  -flex: <0>.ашон|ро
   gramm: sg,poss,poss.3,poss.pl,obj.def
@@ -520,12 +520,15 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.pl,obj.def
   gloss: PL.ar.m|POSS.3PL|OBJ.DEF
  -flex: <0>.тар|ашон|ро
-  gramm: compar,poss,poss.3,poss.pl,obj.def
+  gramm: sg,compar,poss,poss.3,poss.pl,obj.def
   gloss: COMPAR|POSS.3PL|OBJ.DEF
  -flex: <0>.тарин|ашон|ро
-  gramm: super,poss,poss.3,poss.pl,obj.def
+  gramm: sg,super,poss,poss.3,poss.pl,obj.def
   gloss: SUPER|POSS.3PL|OBJ.DEF
  -flex: <0>.ҳо|ю
+  gramm: pl,and
+  gloss: PL|and
+ -flex: <0>.ҳо|ву
   gramm: pl,and
   gloss: PL|and
  -flex: <0>.от|у//.ҷот|у//.вот|у//.ёт|у
@@ -539,74 +542,80 @@
   gloss: PL.ar.m|and
  -flex: <0>.е|ю
   gramm: sg,indef,and
-  gloss: SG.INDEF|and
+  gloss: INDEF|and
+ -flex: <0>.е|ву
+  gramm: sg,indef,and
+  gloss: INDEF|and
  -flex: <0>.ҳо|е|ю
   gramm: pl,indef,and
   gloss: PL|INDEF|and
- -flex: <0>.от|е|ю//.ҷот|е|ю//.вот|е|ю
+ -flex: <0>.ҳо|е|ву
+  gramm: pl,indef,and
+  gloss: PL|INDEF|and
+ -flex: <0>.от|е|ю//.ҷот|е|ю//.вот|е|ю//.от|е|ву//.ҷот|е|ву//.вот|е|ву
   gramm: pl.ar,pl,indef,and
   gloss: PL.ar|INDEF|and
- -flex: <0>.он|е|ю//.гон|е|ю//.вон|е|ю//.ён|е|ю
+ -flex: <0>.он|е|ю//.гон|е|ю//.вон|е|ю//.ён|е|ю//.он|е|ву//.гон|е|ву//.вон|е|ву//.ён|е|ву
   gramm: pl.anim,pl,indef,and
   gloss: PL.anim|INDEF|and
- -flex: <0>.ин|е|ю
+ -flex: <0>.ин|е|ю//.ин|е|ву
   gramm: pl.ar.m,pl,indef,and
   gloss: PL.ar.m|INDEF|and
  -flex: <0>.тар|у
-  gramm: compar,and
+  gramm: sg,compar,and
   gloss: COMPAR|and
  -flex: <0>.тарин|у
-  gramm: super,and
+  gramm: sg,super,and
   gloss: SUPER|and
- -flex: <0>.тар|е|ю
-  gramm: compar,indef,and
+ -flex: <0>.тар|е|ю//.тар|е|ву
+  gramm: sg,compar,indef,and
   gloss: COMPAR|INDEF|and
- -flex: <0>.тарин|е|ю
-  gramm: super,indef,and
+ -flex: <0>.тарин|е|ю//.тарин|е|ву
+  gramm: sg,super,indef,and
   gloss: SUPER|INDEF|and
- -flex: <0>.ро|ю
+ -flex: <0>.ро|ю//.ро|ву
   gramm: sg,obj.def,and
   gloss: SG.OBJ.DEF|and
- -flex: <0>.ҳо|ро|ю
+ -flex: <0>.ҳо|ро|ю//.ҳо|ро|ву
   gramm: pl,obj.def,and
   gloss: PL|OBJ.DEF|and
- -flex: <0>.от|ро|ю//.ҷот|ро|ю//.вот|ро|ю//.ёт|ро|ю
+ -flex: <0>.от|ро|ю//.ҷот|ро|ю//.вот|ро|ю//.ёт|ро|ю//.от|ро|ву//.ҷот|ро|ву//.вот|ро|ву//.ёт|ро|ву
   gramm: pl.ar,pl,obj.def,and
   gloss: PL.ar|OBJ.DEF|and
- -flex: <0>.он|ро|ю//.гон|ро|ю//.вон|ро|ю//.ён|ро|ю
+ -flex: <0>.он|ро|ю//.гон|ро|ю//.вон|ро|ю//.ён|ро|ю//.он|ро|ву//.гон|ро|ву//.вон|ро|ву//.ён|ро|ву
   gramm: pl.anim,pl,obj.def,and
   gloss: PL.anim|OBJ.DEF|and
- -flex: <0>.ин|ро|ю
+ -flex: <0>.ин|ро|ю//.ин|ро|ву
   gramm: pl.ar.m,pl,obj.def,and
   gloss: PL.ar.m|OBJ.DEF|and
- -flex: <0>.е|ро|ю
+ -flex: <0>.е|ро|ю//.е|ро|ву
   gramm: sg,indef,obj.def,and
   gloss: SG.INDEF|OBJ.DEF|and
- -flex: <0>.ҳо|е|ро|ю
+ -flex: <0>.ҳо|е|ро|ю//.ҳо|е|ро|ву
   gramm: pl,indef,obj.def,and
   gloss: PL|INDEF|OBJ.DEF|and
- -flex: <0>.от|е|ро|ю//.ҷот|е|ро|ю//.вот|е|ро|ю//.ёт|е|ро|ю
+ -flex: <0>.от|е|ро|ю//.ҷот|е|ро|ю//.вот|е|ро|ю//.ёт|е|ро|ю//.от|е|ро|ву//.ҷот|е|ро|ву//.вот|е|ро|ву//.ёт|е|ро|ву
   gramm: pl.ar,pl,indef,obj.def,and
   gloss: PL.ar|INDEF|OBJ.DEF|and
- -flex: <0>.он|е|ро|ю//.гон|е|ро|ю//.вон|е|ро|ю//.ён|е|ро|ю
+ -flex: <0>.он|е|ро|ю//.гон|е|ро|ю//.вон|е|ро|ю//.ён|е|ро|ю//.он|е|ро|ву//.гон|е|ро|ву//.вон|е|ро|ву//.ён|е|ро|ву
   gramm: pl.anim,pl,indef,obj.def,and
   gloss: PL.anim|INDEF|OBJ.DEF|and
- -flex: <0>.ин|е|ро|ю
+ -flex: <0>.ин|е|ро|ю//.ин|е|ро|ву
   gramm: pl.ar.m,pl,indef,obj.def,and
   gloss: PL.ar.m|INDEF|OBJ.DEF|and
- -flex: <0>.тар|ро|ю
-  gramm: compar,obj.def,and
+ -flex: <0>.тар|ро|ю//.тар|ро|ву
+  gramm: sg,compar,obj.def,and
   gloss: COMPAR|OBJ.DEF|and
- -flex: <0>.тарин|ро|ю
-  gramm: super,obj.def,and
+ -flex: <0>.тарин|ро|ю//.тарин|ро|ву
+  gramm: sg,super,obj.def,and
   gloss: SUPER|OBJ.DEF|and
- -flex: <0>.тар|е|ро|ю
-  gramm: compar,indef,obj.def,and
+ -flex: <0>.тар|е|ро|ю//.тар|е|ро|ву
+  gramm: sg,compar,indef,obj.def,and
   gloss: COMPAR|INDEF|OBJ.DEF|and
- -flex: <0>.тарин|е|ро|ю
-  gramm: super,indef,obj.def,and
+ -flex: <0>.тарин|е|ро|ю//.тарин|е|ро|ву
+  gramm: sg,super,indef,obj.def,and
   gloss: SUPER|INDEF|OBJ.DEF|and
- -flex: <0>.хо|е|ро|ю
+ -flex: <0>.хо|е|ро|ю//.хо|е|ро|ву
   gramm: pl,indef,obj.def,and
   gloss: PL|INDEF|OBJ.DEF|and
  -flex: <0>.ам|у//.ям|у
@@ -625,31 +634,31 @@
   gramm: pl.ar.m,pl,poss,poss.1,poss.sg,and
   gloss: PL.ar.m|POSS.1SG|and
  -flex: <0>.тар|ам|у
-  gramm: compar,poss,poss.1,poss.sg,and
+  gramm: sg,compar,poss,poss.1,poss.sg,and
   gloss: COMPAR|POSS.1SG|and
  -flex: <0>.тарин|ам|у
-  gramm: super,poss,poss.1,poss.sg,and
+  gramm: sg,super,poss,poss.1,poss.sg,and
   gloss: SUPER|POSS.1SG|and
- -flex: <0>.ам|ро|ю
+ -flex: <0>.ам|ро|ю//.ам|ро|ву
   gramm: poss,poss.1,poss.sg,obj.def,and
   gloss: POSS.1SG|OBJ.DEF|and
- -flex: <0>.ҳо|ям|ро|ю
+ -flex: <0>.ҳо|ям|ро|ю//.ҳо|ям|ро|ву
   gramm: pl,poss,poss.1,poss.sg,obj.def,and
   gloss: PL|POSS.1SG|OBJ.DEF|and
- -flex: <0>.от|ам|ро|ю//.ҷот|ам|ро|ю//.вот|ам|ро|ю//.ёт|ам|ро|ю
+ -flex: <0>.от|ам|ро|ю//.ҷот|ам|ро|ю//.вот|ам|ро|ю//.ёт|ам|ро|ю//.от|ам|ро|ву//.ҷот|ам|ро|ву//.вот|ам|ро|ву//.ёт|ам|ро|ву
   gramm: pl.ar,pl,poss,poss.1,poss.sg,obj.def,and
   gloss: PL.ar|POSS.1SG|OBJ.DEF|and
- -flex: <0>.он|ам|ро|ю//.гон|ам|ро|ю//.вон|ам|ро|ю//.ён|ам|ро|ю
+ -flex: <0>.он|ам|ро|ю//.гон|ам|ро|ю//.вон|ам|ро|ю//.ён|ам|ро|ю//.он|ам|ро|ву//.гон|ам|ро|ву//.вон|ам|ро|ву//.ён|ам|ро|ву
   gramm: pl.anim,pl,poss,poss.1,poss.sg,obj.def,and
   gloss: PL.anim|POSS.1SG|OBJ.DEF|and
- -flex: <0>.ин|ам|ро|ю
+ -flex: <0>.ин|ам|ро|ю//.ин|ам|ро|ву
   gramm: pl.ar.m,pl,poss,poss.1,poss.sg,obj.def,and
   gloss: PL.ar.m|POSS.1SG|OBJ.DEF|and
- -flex: <0>.тар|ам|ро|ю
-  gramm: compar,poss,poss.1,poss.sg,obj.def,and
+ -flex: <0>.тар|ам|ро|ю//.тар|ам|ро|ву
+  gramm: sg,compar,poss,poss.1,poss.sg,obj.def,and
   gloss: COMPAR|POSS.1SG|OBJ.DEF|and
- -flex: <0>.тарин|ам|ро|ю
-  gramm: super,poss,poss.1,poss.sg,obj.def,and
+ -flex: <0>.тарин|ам|ро|ю//.тарин|ам|ро|ву
+  gramm: sg,super,poss,poss.1,poss.sg,obj.def,and
   gloss: SUPER|POSS.1SG|OBJ.DEF|and
  -flex: <0>.ат|у//.ят|у
   gramm: sg,poss,poss.sg,poss.2,and
@@ -667,31 +676,31 @@
   gramm: pl.ar.m,pl,poss,poss.sg,poss.2,and
   gloss: PL.ar.m|POSS.2SG|and
  -flex: <0>.тар|ат|у
-  gramm: compar,poss,poss.sg,poss.2,and
+  gramm: sg,compar,poss,poss.sg,poss.2,and
   gloss: COMPAR|POSS.2SG|and
  -flex: <0>.тарин|ат|у
-  gramm: super,poss,poss.sg,poss.2,and
+  gramm: sg,super,poss,poss.sg,poss.2,and
   gloss: SUPER|POSS.2SG|and
- -flex: <0>.ат|ро|ю
+ -flex: <0>.ат|ро|ю//.ат|ро|ву
   gramm: poss.2sg,poss,poss.sg,poss.2,obj.def,and
   gloss: POSS.2SG|OBJ.DEF|and
- -flex: <0>.ҳо|ят|ро|ю
+ -flex: <0>.ҳо|ят|ро|ю//.ҳо|ят|ро|ву
   gramm: pl,poss,poss.sg,poss.2,obj.def,and
   gloss: PL|POSS.2SG|OBJ.DEF|and
- -flex: <0>.от|ат|ро|ю//.ҷот|ат|ро|ю//.вот|ат|ро|ю//.ёт|ат|ро|ю
+ -flex: <0>.от|ат|ро|ю//.ҷот|ат|ро|ю//.вот|ат|ро|ю//.ёт|ат|ро|ю//.от|ат|ро|ву//.ҷот|ат|ро|ву//.вот|ат|ро|ву//.ёт|ат|ро|ву
   gramm: pl.ar,pl,poss,poss.sg,poss.2,obj.def,and
   gloss: PL.ar|POSS.2SG|OBJ.DEF|and
- -flex: <0>.он|ат|ро|ю//.гон|ат|ро|ю//.вон|ат|ро|ю//.ён|ат|ро|ю
+ -flex: <0>.он|ат|ро|ю//.гон|ат|ро|ю//.вон|ат|ро|ю//.ён|ат|ро|ю//.он|ат|ро|ву//.гон|ат|ро|ву//.вон|ат|ро|ву//.ён|ат|ро|ву
   gramm: pl.anim,pl,poss,poss.sg,poss.2,obj.def,and
   gloss: PL.anim|POSS.2SG|OBJ.DEF|and
- -flex: <0>.ин|ат|ро|ю
+ -flex: <0>.ин|ат|ро|ю//.ин|ат|ро|ву
   gramm: pl.ar.m,pl,poss,poss.sg,poss.2,obj.def,and
   gloss: PL.ar.m|POSS.2SG|OBJ.DEF|and
- -flex: <0>.тар|ат|ро|ю
-  gramm: compar,poss,poss.sg,poss.2,obj.def,and
+ -flex: <0>.тар|ат|ро|ю//.тар|ат|ро|ву
+  gramm: sg,compar,poss,poss.sg,poss.2,obj.def,and
   gloss: COMPAR|POSS.2SG|OBJ.DEF|and
- -flex: <0>.тарин|ат|ро|ю
-  gramm: super,poss,poss.sg,poss.2,obj.def,and
+ -flex: <0>.тарин|ат|ро|ю//.тарин|ат|ро|ву
+  gramm: sg,super,poss,poss.sg,poss.2,obj.def,and
   gloss: SUPER|POSS.2SG|OBJ.DEF|and
  -flex: <0>.аш|у//.яш|у
   gramm: sg,poss,poss.3,poss.sg,and
@@ -709,31 +718,31 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.sg,and
   gloss: PL.ar.m|POSS.3SG|and
  -flex: <0>.тар|аш|у
-  gramm: compar,poss,poss.3,poss.sg,and
+  gramm: sg,compar,poss,poss.3,poss.sg,and
   gloss: COMPAR|POSS.3SG|and
  -flex: <0>.тарин|аш|у
-  gramm: super,poss,poss.3,poss.sg,and
+  gramm: sg,super,poss,poss.3,poss.sg,and
   gloss: SUPER|POSS.3SG|and
- -flex: <0>.аш|ро|ю
+ -flex: <0>.аш|ро|ю//.аш|ро|ву
   gramm: poss.3sg,poss,poss.3,poss.sg,obj.def,and
   gloss: POSS.3SG|OBJ.DEF|and
- -flex: <0>.ҳо|яш|ро|ю
+ -flex: <0>.ҳо|яш|ро|ю//.ҳо|яш|ро|ву
   gramm: pl,poss,poss.3,poss.sg,obj.def,and
   gloss: PL|POSS.3SG|OBJ.DEF|and
- -flex: <0>.от|аш|ро|ю//.ҷот|аш|ро|ю//.вот|аш|ро|ю//.ёт|аш|ро|ю
+ -flex: <0>.от|аш|ро|ю//.ҷот|аш|ро|ю//.вот|аш|ро|ю//.ёт|аш|ро|ю//.от|аш|ро|ву//.ҷот|аш|ро|ву//.вот|аш|ро|ву//.ёт|аш|ро|ву
   gramm: pl.ar,pl,poss,poss.3,poss.sg,obj.def,and
   gloss: PL.ar|POSS.3SG|OBJ.DEF|and
- -flex: <0>.он|аш|ро|ю//.гон|аш|ро|ю//.вон|аш|ро|ю//.ён|аш|ро|ю
+ -flex: <0>.он|аш|ро|ю//.гон|аш|ро|ю//.вон|аш|ро|ю//.ён|аш|ро|ю//он|аш|ро|ву//.гон|аш|ро|ву//.вон|аш|ро|ву//.ён|аш|ро|ву
   gramm: pl.anim,pl,poss,poss.3,poss.sg,obj.def,and
   gloss: PL.anim|POSS.3SG|OBJ.DEF|and
- -flex: <0>.ин|аш|ро|ю
+ -flex: <0>.ин|аш|ро|ю//.ин|аш|ро|ву
   gramm: pl.ar.m,pl,poss,poss.3,poss.sg,obj.def,and
   gloss: PL.ar.m|POSS.3SG|OBJ.DEF|and
- -flex: <0>.тар|аш|ро|ю
-  gramm: compar,poss,poss.3,poss.sg,obj.def,and
+ -flex: <0>.тар|аш|ро|ю//.тар|аш|ро|ву
+  gramm: sg,compar,poss,poss.3,poss.sg,obj.def,and
   gloss: COMPAR|POSS.3SG|OBJ.DEF|and
- -flex: <0>.тарин|аш|ро|ю
-  gramm: super,poss,poss.3,poss.sg,obj.def,and
+ -flex: <0>.тарин|аш|ро|ю//.тарин|аш|ро|ву
+  gramm: sg,super,poss,poss.3,poss.sg,obj.def,and
   gloss: SUPER|POSS.3SG|OBJ.DEF|and
  -flex: <0>.амон|у//.ямон|у
   gramm: sg,poss,poss.1,poss.pl,and
@@ -751,31 +760,31 @@
   gramm: pl.ar.m,pl,poss,poss.1,poss.pl,and
   gloss: PL.ar.m|POSS.1PL|and
  -flex: <0>.тар|амон|у
-  gramm: compar,poss,poss.1,poss.pl,and
+  gramm: sg,compar,poss,poss.1,poss.pl,and
   gloss: COMPAR|POSS.1PL|and
  -flex: <0>.тарин|амон|у
-  gramm: super,poss,poss.1,poss.pl,and
+  gramm: sg,super,poss,poss.1,poss.pl,and
   gloss: SUPER|POSS.1PL|and
- -flex: <0>.амон|ро|ю
+ -flex: <0>.амон|ро|ю//.амон|ро|ву
   gramm: poss.1pl,poss,poss.1,poss.pl,obj.def,and
   gloss: POSS.1PL|OBJ.DEF|and
- -flex: <0>.ҳо|ямон|ро|ю
+ -flex: <0>.ҳо|ямон|ро|ю//.ҳо|ямон|ро|ву
   gramm: pl,poss,poss.1,poss.pl,obj.def,and
   gloss: PL|POSS.1PL|OBJ.DEF|and
- -flex: <0>.от|амон|ро|ю//.ҷот|амон|ро|ю//.вот|амон|ро|ю//.ёт|амон|ро|ю
+ -flex: <0>.от|амон|ро|ю//.ҷот|амон|ро|ю//.вот|амон|ро|ю//.ёт|амон|ро|ю//.от|амон|ро|ву//.ҷот|амон|ро|ву//.вот|амон|ро|ву//.ёт|амон|ро|ву
   gramm: pl.ar,pl,poss,poss.1,poss.pl,obj.def,and
   gloss: PL.ar|POSS.1PL|OBJ.DEF|and
- -flex: <0>.он|амон|ро|ю//.гон|амон|ро|ю//.вон|амон|ро|ю//.ён|амон|ро|ю
+ -flex: <0>.он|амон|ро|ю//.гон|амон|ро|ю//.вон|амон|ро|ю//.ён|амон|ро|ю//.он|амон|ро|ву//.гон|амон|ро|ву//.вон|амон|ро|ву//.ён|амон|ро|ву
   gramm: pl.anim,pl,poss,poss.1,poss.pl,obj.def,and
   gloss: PL.anim|POSS.1PL|OBJ.DEF|and
- -flex: <0>.ин|амон|ро|ю
+ -flex: <0>.ин|амон|ро|ю//.ин|амон|ро|ву
   gramm: pl.ar.m,pl,poss,poss.1,poss.pl,obj.def,and
   gloss: PL.ar.m|POSS.1PL|OBJ.DEF|and
- -flex: <0>.тар|амон|ро|ю
-  gramm: compar,poss,poss.1,poss.pl,obj.def,and
+ -flex: <0>.тар|амон|ро|ю//.тар|амон|ро|ву
+  gramm: sg,compar,poss,poss.1,poss.pl,obj.def,and
   gloss: COMPAR|POSS.1PL|OBJ.DEF|and
- -flex: <0>.тарин|амон|ро|ю
-  gramm: super,poss,poss.1,poss.pl,obj.def,and
+ -flex: <0>.тарин|амон|ро|ю//.тарин|амон|ро|ву
+  gramm: sg,super,poss,poss.1,poss.pl,obj.def,and
   gloss: SUPER|POSS.1PL|OBJ.DEF|and
  -flex: <0>.атон|у//.ятон|у
   gramm: sg,poss.2pl,poss,poss.2,poss.pl,and
@@ -793,31 +802,31 @@
   gramm: pl.ar.m,pl,poss.2pl,poss,poss.2,poss.pl,and
   gloss: PL.ar.m|POSS.2PL|and
  -flex: <0>.тар|атон|у
-  gramm: compar,poss.2pl,poss,poss.2,poss.pl,and
+  gramm: sg,compar,poss.2pl,poss,poss.2,poss.pl,and
   gloss: COMPAR|POSS.2PL|and
  -flex: <0>.тарин|атон|у
-  gramm: super,poss.2pl,poss,poss.2,poss.pl,and
+  gramm: sg,super,poss.2pl,poss,poss.2,poss.pl,and
   gloss: SUPER|POSS.2PL|and
- -flex: <0>.атон|ро|ю
+ -flex: <0>.атон|ро|ю//.атон|ро|ву
   gramm: poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: POSS.2PL|OBJ.DEF|and
- -flex: <0>.ҳо|ятон|ро|ю
+ -flex: <0>.ҳо|ятон|ро|ю//.ҳо|ятон|ро|ву
   gramm: pl,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: PL|POSS.2PL|OBJ.DEF|and
- -flex: <0>.от|атон|ро|ю//.ҷот|атон|ро|ю//.вот|атон|ро|ю//.ёт|атон|ро|ю
+ -flex: <0>.от|атон|ро|ю//.ҷот|атон|ро|ю//.вот|атон|ро|ю//.ёт|атон|ро|ю//.от|атон|ро|ву//.ҷот|атон|ро|ву//.вот|атон|ро|ву//.ёт|атон|ро|ву
   gramm: pl.ar,pl,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: PL.ar|POSS.2PL|OBJ.DEF|and
- -flex: <0>.он|атон|ро|ю//.гон|атон|ро|ю//.вон|атон|ро|ю//.ён|атон|ро|ю
+ -flex: <0>.он|атон|ро|ю//.гон|атон|ро|ю//.вон|атон|ро|ю//.ён|атон|ро|ю//.он|атон|ро|ву//.гон|атон|ро|ву//.вон|атон|ро|ву//.ён|атон|ро|ву
   gramm: pl.anim,pl,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: PL.anim|POSS.2PL|OBJ.DEF|and
- -flex: <0>.ин|атон|ро|ю
+ -flex: <0>.ин|атон|ро|ю//.ин|атон|ро|ву
   gramm: pl.ar.m,pl,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: PL.ar.m|POSS.2PL|OBJ.DEF|and
- -flex: <0>.тар|атон|ро|ю
-  gramm: compar,poss.2pl,poss,poss.2,poss.pl,obj.def,and
+ -flex: <0>.тар|атон|ро|ю//.тар|атон|ро|ву
+  gramm: sg,compar,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: COMPAR|POSS.2PL|OBJ.DEF|and
- -flex: <0>.тарин|атон|ро|ю
-  gramm: super,poss.2pl,poss,poss.2,poss.pl,obj.def,and
+ -flex: <0>.тарин|атон|ро|ю//.тарин|атон|ро|ву
+  gramm: sg,super,poss.2pl,poss,poss.2,poss.pl,obj.def,and
   gloss: SUPER|POSS.2PL|OBJ.DEF|and
  -flex: <0>.ашон|у//.яшон|у
   gramm: sg,poss,poss.3,poss.pl,and
@@ -835,31 +844,31 @@
   gramm: pl.ar.m,pl,poss,poss.3,poss.pl,and
   gloss: PL.ar.m|POSS.3PL|and
  -flex: <0>.тар|ашон|у
-  gramm: compar,poss,poss.3,poss.pl,and
+  gramm: sg,compar,poss,poss.3,poss.pl,and
   gloss: COMPAR|POSS.3PL|and
  -flex: <0>.тарин|ашон|у
-  gramm: super,poss,poss.3,poss.pl,and
+  gramm: sg,super,poss,poss.3,poss.pl,and
   gloss: SUPER|POSS.3PL|and
  -flex: <0>.ашон|ро|у
-  gramm: poss.3pl,poss,poss.3,poss.pl,obj.def,and
+  gramm: sg,poss.3pl,poss,poss.3,poss.pl,obj.def,and
   gloss: POSS.3PL|OBJ.DEF|and
- -flex: <0>.ҳо|яшон|ро|ю
+ -flex: <0>.ҳо|яшон|ро|ю//.ҳо|яшон|ро|ву
   gramm: pl,poss,poss.3,poss.pl,obj.def,and
   gloss: PL|POSS.3PL|OBJ.DEF|and
- -flex: <0>.от|ашон|ро|ю//.ҷот|ашон|ро|ю//.вот|ашон|ро|ю//.ёт|ашон|ро|ю
+ -flex: <0>.от|ашон|ро|ю//.ҷот|ашон|ро|ю//.вот|ашон|ро|ю//.ёт|ашон|ро|ю//.от|ашон|ро|ву//.ҷот|ашон|ро|ву//.вот|ашон|ро|ву//.ёт|ашон|ро|ву
   gramm: pl.ar,pl,poss,poss.3,poss.pl,obj.def,and
   gloss: PL.ar|POSS.3PL|OBJ.DEF|and
- -flex: <0>.он|ашон|ро|ю//.гон|ашон|ро|ю//.вон|ашон|ро|ю//.ён|ашон|ро|ю
+ -flex: <0>.он|ашон|ро|ю//.гон|ашон|ро|ю//.вон|ашон|ро|ю//.ён|ашон|ро|ю//.он|ашон|ро|ву//.гон|ашон|ро|ву//.вон|ашон|ро|ву//.ён|ашон|ро|ву
   gramm: pl.anim,pl,poss,poss.3,poss.pl,obj.def,and
   gloss: PL.anim|POSS.3PL|OBJ.DEF|and
- -flex: <0>.ин|ашон|ро|ю
+ -flex: <0>.ин|ашон|ро|ю//.ин|ашон|ро|ву
   gramm: pl.ar.m,pl,poss,poss.3,poss.pl,obj.def,and
   gloss: PL.ar.m|POSS.3PL|OBJ.DEF|and
- -flex: <0>.тар|ашон|ро|ю
-  gramm: compar,poss,poss.3,poss.pl,obj.def,and
+ -flex: <0>.тар|ашон|ро|ю//.тар|ашон|ро|ву
+  gramm: sg,compar,poss,poss.3,poss.pl,obj.def,and
   gloss: COMPAR|POSS.3PL|OBJ.DEF|and
- -flex: <0>.тарин|ашон|ро|ю
-  gramm: super,poss,poss.3,poss.pl,obj.def,and
+ -flex: <0>.тарин|ашон|ро|ю//.тарин|ашон|ро|ву
+  gramm: sg,super,poss,poss.3,poss.pl,obj.def,and
   gloss: SUPER|POSS.3PL|OBJ.DEF|and
 -paradigm: V
  -flex: <0>.у//.ю
@@ -877,7 +886,7 @@
  -flex: <0>.ям|у
   gramm: pst,1,sg,and
   gloss: PST.1SG|and
- -flex: <0>.ӣ|ю
+ -flex: <0>.ӣ|ю//.ӣ|ву
   gramm: pst,2,sg,and
   gloss: PST.2SG|and
  -flex: <0>.ӣ
@@ -932,6 +941,9 @@
   gramm: prs,2,sg
   gloss: PRS.2SG
  -flex: <1>[ме].ӣ|ю
+  gramm: prs,2,sg,and
+  gloss: PRS.2SG|and
+ -flex: <1>[ме].ӣ|ву
   gramm: prs,2,sg,and
   gloss: PRS.2SG|and
  -flex: <1>[ме].ад
@@ -994,6 +1006,9 @@
  -flex: <0>ме.ӣ|ю
   gramm: hab,pst,2,sg,and
   gloss: HAB|PST.2SG|and
+ -flex: <0>ме.ӣ|ву
+  gramm: hab,pst,2,sg,and
+  gloss: HAB|PST.2SG|and
  -flex: <0>ме.
   gramm: hab,pst,3,sg
   gloss: HAB|PST.3SG
@@ -1042,6 +1057,9 @@
  -flex: <0>.аӣ|ю
   gramm: prf,2,sg,and
   gloss: PRF.2SG|and
+ -flex: <0>.аӣ|ву
+  gramm: prf,2,sg,and
+  gloss: PRF.2SG|and
  -flex: <0>.ааст
   gramm: prf,3,sg
   gloss: PRF.3SG
@@ -1078,6 +1096,9 @@
  -flex: <0>на.аӣ|ю
   gramm: neg,prf,2,sg,and
   gloss: NEG|PRF.2SG|and
+ -flex: <0>на.аӣ|ву
+  gramm: neg,prf,2,sg,and
+  gloss: NEG|PRF.2SG|and
  -flex: <0>на.ааст
   gramm: neg,prf,3,sg
   gloss: NEG|PRF.3SG
@@ -1112,6 +1133,9 @@
   gramm: hab,prf,2,sg
   gloss: HAB|PRF.2SG
  -flex: <0>ме.аӣ|ю
+  gramm: hab,prf,2,sg,and
+  gloss: HAB|PRF.2SG|and
+ -flex: <0>ме.аӣ|ву
   gramm: hab,prf,2,sg,and
   gloss: HAB|PRF.2SG|and
  -flex: <0>ме.ааст
@@ -1154,6 +1178,9 @@
   gramm: sbjv,2,sg
   gloss: SBJV.2SG
  -flex: <1>.ӣ|ю
+  gramm: sbjv,2,sg,and
+  gloss: SBJV.2SG|and
+ -flex: <1>.ӣ|ву
   gramm: sbjv,2,sg,and
   gloss: SBJV.2SG|and
  -flex: <1>.ад
@@ -1231,6 +1258,9 @@
  -flex: <0>на.ӣ|ю
   gramm: neg,pst,2,sg,and
   gloss: NEG|PST.2SG|and
+ -flex: <0>на.ӣ|ву
+  gramm: neg,pst,2,sg,and
+  gloss: NEG|PST.2SG|and
  -flex: <0>на.0
   gramm: neg,pst,3,sg
   gloss: NEG|PST.3SG
@@ -1283,6 +1313,9 @@
   gramm: neg,prs,2,sg
   gloss: NEG|PRS.2SG
  -flex: <1>на|[ме].ӣ|ю
+  gramm: neg,prs,2,sg,and
+  gloss: NEG|PRS.2SG|and
+ -flex: <1>на|[ме].ӣ|ву
   gramm: neg,prs,2,sg,and
   gloss: NEG|PRS.2SG|and
  -flex: <1>на|[ме].ад
@@ -1345,6 +1378,9 @@
  -flex: <0>на|ме.ӣ|ю
   gramm: neg,hab,pst,2,sg,and
   gloss: NEG|HAB|PST.2SG|and
+ -flex: <0>на|ме.ӣ|ву
+  gramm: neg,hab,pst,2,sg,and
+  gloss: NEG|HAB|PST.2SG|and
  -flex: <0>на|ме.
   gramm: neg,hab,pst,3,sg
   gloss: NEG|HAB|PST.3SG
@@ -1391,6 +1427,9 @@
   gramm: neg,cnject,prs,2,sg
   gloss: NEG|CNJECT|PRS.2SG
  -flex: <0>на|[ме].агистӣ|ю
+  gramm: neg,cnject,prs,2,sg,and
+  gloss: NEG|CNJECT|PRS.2SG|and
+ -flex: <0>на|[ме].агистӣ|ву
   gramm: neg,cnject,prs,2,sg,and
   gloss: NEG|CNJECT|PRS.2SG|and
  -flex: <0>на|[ме].агист
@@ -1451,6 +1490,9 @@
   gramm: neg,sbjv,2,sg
   gloss: NEG|SBJV.2SG
  -flex: <1>на.ӣ|ю
+  gramm: neg,sbjv,2,sg,and
+  gloss: NEG|SBJV.2SG|and
+ -flex: <1>на.ӣ|ву
   gramm: neg,sbjv,2,sg,and
   gloss: NEG|SBJV.2SG|and
  -flex: <1>на.ад
@@ -1576,10 +1618,16 @@
  -flex: <0>.аниӣ|ю
   gramm: int,2,sg,and
   gloss: INT.2SG|and
+ -flex: <0>.аниӣ|ву
+  gramm: int,2,sg,and
+  gloss: INT.2SG|and
  -flex: <0>.анистӣ
   gramm: int,2,sg
   gloss: INT.2SG
  -flex: <0>.анистӣ|ю
+  gramm: int,2,sg,and
+  gloss: INT.2SG|and
+ -flex: <0>.анистӣ|ву
   gramm: int,2,sg,and
   gloss: INT.2SG|and
  -flex: <0>.анист
@@ -1642,10 +1690,16 @@
  -flex: <0>на.аниӣ|ю
   gramm: neg,int,2,sg,and
   gloss: NEG|INT.2SG|and
+ -flex: <0>на.аниӣ|ву
+  gramm: neg,int,2,sg,and
+  gloss: NEG|INT.2SG|and
  -flex: <0>на.анистӣ
   gramm: neg,int,2,sg
   gloss: NEG|INT.2SG
  -flex: <0>на.анистӣ|ю
+  gramm: neg,int,2,sg,and
+  gloss: NEG|INT.2SG|and
+ -flex: <0>на.анистӣ|ву
   gramm: neg,int,2,sg,and
   gloss: NEG|INT.2SG|and
  -flex: <0>на.анист
@@ -1701,6 +1755,9 @@
   gramm: cnject,pst,2,sg
   gloss: CNJECT.PST.2SG
  -flex: <0>.агистӣ|ю
+  gramm: cnject,pst,2,sg,and
+  gloss: CNJECT.PST.2SG|and
+ -flex: <0>.агистӣ|ву
   gramm: cnject,pst,2,sg,and
   gloss: CNJECT.PST.2SG|and
  -flex: <0>.агист
@@ -1761,6 +1818,9 @@
   gramm: cnject,prs,2,sg
   gloss: CNJECT|PRS.2SG
  -flex: <0>[ме].агистӣ|ю
+  gramm: cnject,prs,2,sg,and
+  gloss: CNJECT|PRS.2SG|and
+ -flex: <0>[ме].агистӣ|ву
   gramm: cnject,prs,2,sg,and
   gloss: CNJECT|PRS.2SG|and
  -flex: <0>[ме].агист
