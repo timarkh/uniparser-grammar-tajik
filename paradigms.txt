@@ -1449,73 +1449,73 @@
   gloss: NEG|HAB|PST.3PL|and
  -flex: <0>на|[ме].агистам
   gramm: neg,cnject,prs,1,sg,indir
-  gloss: NEG|CNJECT|PRS.1SG
+  gloss: NEG|CNJECT.PRS.1SG
  -flex: <0>на|[ме].агистам|у
   gramm: neg,cnject,prs,1,sg,and,indir
-  gloss: NEG|CNJECT|PRS.1SG|and
+  gloss: NEG|CNJECT.PRS.1SG|and
  -flex: <0>на|[ме].агистӣ
   gramm: neg,cnject,prs,2,sg,indir
-  gloss: NEG|CNJECT|PRS.2SG
+  gloss: NEG|CNJECT.PRS.2SG
  -flex: <0>на|[ме].агистӣ|ю
   gramm: neg,cnject,prs,2,sg,and,indir
-  gloss: NEG|CNJECT|PRS.2SG|and
+  gloss: NEG|CNJECT.PRS.2SG|and
  -flex: <0>на|[ме].агистӣ|ву
   gramm: neg,cnject,prs,2,sg,and,indir
-  gloss: NEG|CNJECT|PRS.2SG|and
+  gloss: NEG|CNJECT.PRS.2SG|and
  -flex: <0>на|[ме].агист
   gramm: neg,cnject,prs,3,sg,indir
-  gloss: NEG|CNJECT|PRS.3SG
+  gloss: NEG|CNJECT.PRS.3SG
  -flex: <0>на|[ме].агист|у
   gramm: neg,cnject,prs,3,sg,and,indir
-  gloss: NEG|CNJECT|PRS.3SG|and
+  gloss: NEG|CNJECT.PRS.3SG|and
  -flex: <0>на|[ме].агистем
   gramm: neg,cnject,prs,1,pl,indir
-  gloss: NEG|CNJECT|PRS.1PL
+  gloss: NEG|CNJECT.PRS.1PL
  -flex: <0>на|[ме].агистем|у
   gramm: neg,cnject,prs,1,pl,and,indir
-  gloss: NEG|CNJECT|PRS.1PL|and
+  gloss: NEG|CNJECT.PRS.1PL|and
  -flex: <0>на|[ме].агистед
   gramm: neg,cnject,prs,2,pl,hon,indir
-  gloss: NEG|CNJECT|PRS.2PL
+  gloss: NEG|CNJECT.PRS.2PL
  -flex: <0>на|[ме].агистед|у
   gramm: neg,cnject,prs,2,pl,and,hon,indir
-  gloss: NEG|CNJECT|PRS.2PL|and
+  gloss: NEG|CNJECT.PRS.2PL|and
  -flex: <0>на|[ме].агистетон
   gramm: neg,cnject,prs,2,pl,indir
-  gloss: NEG|CNJECT|PRS.2PL
+  gloss: NEG|CNJECT.PRS.2PL
  -flex: <0>на|[ме].агистетон|у
   gramm: neg,cnject,prs,2,pl,and,indir
-  gloss: NEG|CNJECT|PRS.2PL|and
+  gloss: NEG|CNJECT.PRS.2PL|and
  -flex: <0>на|[ме].агистанд
   gramm: neg,cnject,prs,3,pl,indir
-  gloss: NEG|CNJECT|PRS.3pl
+  gloss: NEG|CNJECT.PRS.3pl
  -flex: <0>на|[ме].агистанд|у
   gramm: neg,cnject,prs,3,pl,and,indir
-  gloss: NEG|CNJECT|PRS.3pl|and
+  gloss: NEG|CNJECT.PRS.3pl|and
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,sg,indir
-  gloss: NEG|CNJECT2|PRS.1SG
+  gloss: NEG|CNJECT2.PRS.1SG
  -flex: <0>на|[ме].агем|у
   gramm: neg,cnject2,prs,1,sg,and,indir
-  gloss: NEG|CNJECT2|PRS.1SG|and
+  gloss: NEG|CNJECT2.PRS.1SG|and
  -flex: <0>на|[ме].агем
   gramm: neg,cnject2,prs,1,pl,indir
-  gloss: NEG|CNJECT2|PRS.1PL
+  gloss: NEG|CNJECT2.PRS.1PL
  -flex: <0>на|[ме].агем|у
   gramm: neg,cnject2,prs,1,pl,and,indir
-  gloss: NEG|CNJECT2|PRS.1PL|and
+  gloss: NEG|CNJECT2.PRS.1PL|and
  -flex: <0>на|[ме].агед
   gramm: neg,cnject2,prs,2,pl,indir
-  gloss: NEG|CNJECT2|PRS.2PL
+  gloss: NEG|CNJECT2.PRS.2PL
  -flex: <0>на|[ме].агед|у
   gramm: neg,cnject2,prs,2,pl,and,indir
-  gloss: NEG|CNJECT2|PRS.2PL|and
+  gloss: NEG|CNJECT2.PRS.2PL|and
  -flex: <0>на|[ме].аген
   gramm: neg,cnject2,prs,3,pl,indir
-  gloss: NEG|CNJECT2|PRS.3pl
+  gloss: NEG|CNJECT2.PRS.3pl
  -flex: <0>на|[ме].аген|у
   gramm: neg,cnject2,prs,3,pl,and,indir
-  gloss: NEG|CNJECT2|PRS.3pl|and
+  gloss: NEG|CNJECT2.PRS.3pl|and
  -flex: <1>на.ам
   gramm: neg,sbjv,1,sg,indir
   gloss: NEG|SBJV.1SG
@@ -1975,97 +1975,97 @@
   gloss: CNJECT2.PST.3PL|and
  -flex: <0>[ме].агистам
   gramm: cnject,prs,1,sg,indir
-  gloss: CNJECT|PRS.1SG
+  gloss: CNJECT.PRS.1SG
  -flex: <0>[ме].агистам|у
   gramm: cnject,prs,1,sg,and,indir
-  gloss: CNJECT|PRS.1SG|and
+  gloss: CNJECT.PRS.1SG|and
  -flex: <0>[ме].агистӣ
   gramm: cnject,prs,2,sg,indir
-  gloss: CNJECT|PRS.2SG
+  gloss: CNJECT.PRS.2SG
  -flex: <0>[ме].агистӣ|ю
   gramm: cnject,prs,2,sg,and,indir
-  gloss: CNJECT|PRS.2SG|and
+  gloss: CNJECT.PRS.2SG|and
  -flex: <0>[ме].агистӣ|ву
   gramm: cnject,prs,2,sg,and,indir
-  gloss: CNJECT|PRS.2SG|and
+  gloss: CNJECT.PRS.2SG|and
  -flex: <0>[ме].агист
   gramm: cnject,prs,3,sg,indir
-  gloss: CNJECT|PRS.3SG
+  gloss: CNJECT.PRS.3SG
  -flex: <0>[ме].агист|у
   gramm: cnject,prs,3,sg,and,indir
-  gloss: CNJECT|PRS.3SG|and
+  gloss: CNJECT.PRS.3SG|and
  -flex: <0>[ме].агистем
   gramm: cnject,prs,1,pl,indir
-  gloss: CNJECT|PRS.1PL
+  gloss: CNJECT.PRS.1PL
  -flex: <0>[ме].агистем|у
   gramm: cnject,prs,1,pl,and,indir
-  gloss: CNJECT|PRS.1PL|and
+  gloss: CNJECT.PRS.1PL|and
  -flex: <0>[ме].агистед
   gramm: cnject,prs,2,pl,hon,indir
-  gloss: CNJECT|PRS.2PL
+  gloss: CNJECT.PRS.2PL
  -flex: <0>[ме].агистед|у
   gramm: cnject,prs,2,pl,and,hon,indir
-  gloss: CNJECT|PRS.2PL|and
+  gloss: CNJECT.PRS.2PL|and
  -flex: <0>[ме].агистетон
   gramm: cnject,prs,2,pl,indir
-  gloss: CNJECT|PRS.2PL
+  gloss: CNJECT.PRS.2PL
  -flex: <0>[ме].агистетон|у
   gramm: cnject,prs,2,pl,and,indir
-  gloss: CNJECT|PRS.2PL|and
+  gloss: CNJECT.PRS.2PL|and
  -flex: <0>[ме].агистанд
   gramm: cnject,prs,3,pl,indir
-  gloss: CNJECT|PRS.3PL
+  gloss: CNJECT.PRS.3PL
  -flex: <0>[ме].агистанд|у
   gramm: cnject,prs,3,pl,and,indir
-  gloss: CNJECT|PRS.3PL|and
+  gloss: CNJECT.PRS.3PL|and
  -flex: <0>[ме].агиям
   gramm: cnject2,prs,1,sg,indir
-  gloss: CNJECT2|PRS.1SG
+  gloss: CNJECT2.PRS.1SG
  -flex: <0>[ме].агиям|у
   gramm: cnject2,prs,1,sg,and,indir
-  gloss: CNJECT2|PRS.1SG|and
+  gloss: CNJECT2.PRS.1SG|and
  -flex: <0>[ме].агем
   gramm: cnject2,prs,1,pl,indir
-  gloss: CNJECT2|PRS.1PL
+  gloss: CNJECT2.PRS.1PL
  -flex: <0>[ме].агем|у
   gramm: cnject2,prs,1,pl,and,indir
-  gloss: CNJECT2|PRS.1PL|and
+  gloss: CNJECT2.PRS.1PL|and
  -flex: <0>[ме].агӣ
   gramm: cnject2,prs,2,sg,indir
-  gloss: CNJECT2|PRS.2PL
+  gloss: CNJECT2.PRS.2PL
  -flex: <0>[ме].агӣ|у
   gramm: cnject2,prs,2,sg,and,indir
-  gloss: CNJECT2|PRS.2PL|and
+  gloss: CNJECT2.PRS.2PL|and
  -flex: <0>[ме].агед
   gramm: cnject2,prs,2,pl,indir
-  gloss: CNJECT2|PRS.2PL
+  gloss: CNJECT2.PRS.2PL
  -flex: <0>[ме].агед|у
   gramm: cnject2,prs,2,pl,and,indir
-  gloss: CNJECT2|PRS.2PL|and
+  gloss: CNJECT2.PRS.2PL|and
  -flex: <0>[ме].агиед
   gramm: cnject2,prs,2,pl,indir
-  gloss: CNJECT2|PRS.2PL
+  gloss: CNJECT2.PRS.2PL
  -flex: <0>[ме].агиед|у
   gramm: cnject2,prs,2,pl,and,indir
-  gloss: CNJECT2|PRS.2PL|and
+  gloss: CNJECT2.PRS.2PL|and
  -flex: <0>[ме].аген
   gramm: cnject2,prs,3,pl,indir
-  gloss: CNJECT2|PRS.3PL
+  gloss: CNJECT2.PRS.3PL
  -flex: <0>[ме].аген|у
   gramm: cnject2,prs,3,pl,and,indir
-  gloss: CNJECT2|PRS.3PL|and
+  gloss: CNJECT2.PRS.3PL|and
  -flex: <0>[ме].агиянд
   gramm: cnject2,prs,3,pl,indir
-  gloss: CNJECT2|PRS.3PL
+  gloss: CNJECT2.PRS.3PL
  -flex: <0>[ме].агиянд|у
   gramm: cnject2,prs,3,pl,and,indir
-  gloss: CNJECT2|PRS.3PL|and
+  gloss: CNJECT2.PRS.3PL|and
  -flex: <0>[ме].агианд
   gramm: cnject2,prs,3,pl,indir
-  gloss: CNJECT2|PRS.3PL
+  gloss: CNJECT2.PRS.3PL
  -flex: <0>[ме].агианд|у
   gramm: cnject2,prs,3,pl,and,indir
-  gloss: CNJECT2|PRS.3PL|and
+  gloss: CNJECT2.PRS.3PL|and
  -flex: <0>.а
   gramm: part.pst
   gloss: PART.PST
