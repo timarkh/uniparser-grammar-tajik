@@ -1598,7 +1598,7 @@
   gramm: neg,neg2,imp,2,pl,and,indir
   gloss: NEG2|IMP.2PL|and
  -flex: <1>би.
-  gramm: imp,sbjv,bi,2,sg,indir
+  gramm: imp,bi,2,sg,indir
   gloss: IMP.2SG
  -flex: <1>би.ӣ
   gramm: sbjv,bi,2,sg,indir
