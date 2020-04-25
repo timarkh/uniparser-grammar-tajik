@@ -1,0 +1,8 @@
+DELIMITERS = "<SENT_BOUNDARY>";
+LIST BOS = (>>>);
+SET BOSPunct = (punct) | BOS;
+
+
+SECTION    # Verbs
+# Literary future: want.SBJV + V.PST.3SG
+ADD (fut) (V pst 3 sg) - (cnject) - (cnject2) IF (-1 ("хостан" V sbjv));
