@@ -6,6 +6,8 @@
  -flex: <0>.у//.ю//.ву
   gramm: sg,and
   gloss: and
+
+
 -paradigm: N
  -flex: <0>.
   gramm: sg
@@ -870,6 +872,9 @@
  -flex: <0>.тарин|ашон|ро|ю//.тарин|ашон|ро|ву
   gramm: sg,super,poss,poss.3,poss.pl,obj.def,and
   gloss: SUPER|POSS.3PL|OBJ.DEF|and
+
+
+
 -paradigm: V
  -flex: <0>.у//.ю
   gramm: pst,3,sg,and
@@ -2154,9 +2159,10 @@
  -flex: <0>на.ан<.>
   gramm: inf,neg
   gloss: NEG|INF
-  paradigm: N 
+  paradigm: N
+
+
 -paradigm: DERIV
- -flex: <0>.
  -flex: <0>.у//.ю//.ву
   gramm: and
   gloss: and
