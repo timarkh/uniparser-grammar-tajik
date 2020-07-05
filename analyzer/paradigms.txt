@@ -6,6 +6,8 @@
  -flex: <0>.у//.ю//.ву
   gramm: sg,and
   gloss: and
+
+
 -paradigm: N
  -flex: <0>.
   gramm: sg
@@ -870,6 +872,9 @@
  -flex: <0>.тарин|ашон|ро|ю//.тарин|ашон|ро|ву
   gramm: sg,super,poss,poss.3,poss.pl,obj.def,and
   gloss: SUPER|POSS.3PL|OBJ.DEF|and
+
+
+
 -paradigm: V
  -flex: <0>.у//.ю
   gramm: pst,3,sg,and
@@ -2154,9 +2159,10 @@
  -flex: <0>на.ан<.>
   gramm: inf,neg
   gloss: NEG|INF
-  paradigm: N 
+  paradigm: N
+
+
 -paradigm: DERIV
- -flex: <0>.
  -flex: <0>.у//.ю//.ву
   gramm: and
   gloss: and
@@ -2164,8 +2170,8 @@
   gram:
   paradigm: N
  -flex: .ҷон<.>
-  gramm: suf.n,demin,demin1
-  gloss: DEMIN1
+  gramm: suf.n,dimin,dimin1
+  gloss: DIMIN1
   paradigm: N
  -flex: .чӣ<.>
   gramm: suf.n,ag,ag1
@@ -2224,28 +2230,28 @@
   gloss: HOUSE
   paradigm: N
  -flex: .ак<.>
-  gramm: suf.n,demin,demin2
-  gloss: DEMIN2
+  gramm: suf.n,dimin,dimin2
+  gloss: DIMIN2
   paradigm: N
  -flex: .акак<.>
-  gramm: suf.n,demin,demin2
-  gloss: DEMIN2
+  gramm: suf.n,dimin,dimin2
+  gloss: DIMIN2
   paradigm: N
  -flex: .ча<.>
-  gramm: suf.n,demin,demin3
-  gloss: DEMIN3
+  gramm: suf.n,dimin,dimin3
+  gloss: DIMIN3
   paradigm: N
  -flex: .чек<.>
-  gramm: suf.n,demin,demin3
-  gloss: DEMIN3
+  gramm: suf.n,dimin,dimin3
+  gloss: DIMIN3
   paradigm: N
  -flex: .ичек<.>
-  gramm: suf.n,demin,demin3
-  gloss: DEMIN3
+  gramm: suf.n,dimin,dimin3
+  gloss: DIMIN3
   paradigm: N
  -flex: .ина<.>
-  gramm: suf.n,demin,demin4
-  gloss: DEMIN4
+  gramm: suf.n,dimin,dimin4
+  gloss: DIMIN4
   paradigm: N
  -flex: .ин<.>
   gramm: suf.adj,adj6
