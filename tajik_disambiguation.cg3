@@ -1,8 +1,67 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
-
+LIST Aux = ("хостан" V) ("будан" V) ("истодан" V) ("шудан" V);
+SET NotAux = (*) - Aux;
 
 SECTION    # Verbs
 # Literary future: want.SBJV + V.PST.3SG
 ADD (fut) (V pst 3 sg) - (cnject) - (cnject2) IF (-1 ("хостан" V sbjv));
+
+# Pluperfect: V.PART.PST + be.PST
+ADD (pluprf) (V part.pst) IF (1 ("будан" V pst) - (cnject) - (cnject2))
+                             (NOT -1 (V part.pst));
+ADD (pluprf) (V part.pst) - Aux IF (1 ("будан" V pst) - (cnject) - (cnject2))
+                                   (-1 (V part.pst));
+
+# Present progressive: V.PART.PST + stand.PRF
+ADD (prs.prog) (V part.pst) IF (1 ("истодан" V prf))
+                               (NOT -1 (V part.pst));
+ADD (prs.prog) (V part.pst) - Aux IF (1 ("истодан" V prf))
+                                     (-1 (V part.pst));
+
+# Evidential pluperfect: V.PART.PST + be.PRF
+ADD (pluprf.evid) (V part.pst) IF (1 ("будан" V prf))
+                                  (NOT -1 (V part.pst));
+ADD (pluprf.evid) (V part.pst) - Aux IF (1 ("будан" V prf))
+                                        (-1 (V part.pst));
+
+# Evidential progressive: V.PART.PST + stand.PART.PST + be.PRF
+ADD (evid.prog) (V part.pst) IF (1 ("истодан" V part.pst))
+                                (2 ("будан" V prf))
+                                (NOT -1 (V part.pst));
+ADD (evid.prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+                                      (2 ("будан" V prf))
+                                      (-1 (V part.pst));
+
+# Subjunctive past: V.PART.PST + be.SBJV
+ADD (sbjv.pst) (V part.pst) IF (1 ("будан" V sbjv))
+                               (NOT -1 (V part.pst));
+ADD (sbjv.pst) (V part.pst) - Aux IF (1 ("будан" V sbjv))
+                                     (-1 (V part.pst));
+
+# Durative subjunctive: V.HAB.PART.PST + be.SBJV
+ADD (sbjv.dur) (V hab.part.pst) IF (1 ("будан" V sbjv))
+                                   (NOT -1 (V part.pst));
+ADD (sbjv.dur) (V hab.part.pst) - Aux IF (1 ("будан" V sbjv))
+                                         (-1 (V part.pst));
+
+# Progressive subjunctive: V.PART.PST + stand.PART.PST + be.SBJV
+ADD (sbjv.prog) (V part.pst) IF (1 ("истодан" V part.pst))
+                                (2 ("будан" V sbjv))
+                                (NOT -1 (V part.pst));
+ADD (sbjv.prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+                                      (2 ("будан" V sbjv))
+                                      (-1 (V part.pst));
+
+# Conjectual present progressive 1: V.PART.PST + stand.CNJECT.PRS
+ADD (cnject.prs.prog) (V part.pst) IF (1 ("истодан" V cnject prs))
+                                      (NOT -1 (V part.pst));
+ADD (cnject.prs.prog) (V part.pst) - Aux IF (1 ("истодан" V cnject prs))
+                                            (-1 (V part.pst));
+
+# Conjectual present progressive 2: V.PART.PST + stand.CNJECT2.PRS
+ADD (cnject2.prs.prog) (V part.pst) IF (1 ("истодан" V cnject2 prs))
+                                       (NOT -1 (V part.pst));
+ADD (cnject2.prs.prog) (V part.pst) - Aux IF (1 ("истодан" V cnject2 prs))
+                                             (-1 (V part.pst));
