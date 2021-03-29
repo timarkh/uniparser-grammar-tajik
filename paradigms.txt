@@ -2072,34 +2072,34 @@
   gramm: cnject2,prs,3,pl,and,indir
   gloss: CNJECT2.PRS.3PL|and
  -flex: <0>.а
-  gramm: part.pst
+  gramm: part.pst,part
   gloss: PART.PST
  -flex: <0>.а|ву
-  gramm: part.pst,and
+  gramm: part.pst,part,and
   gloss: PART.PST|and
  -flex: <0>ме.а
-  gramm: hab,part.pst,hab.part.pst
+  gramm: hab,part.pst,hab.part.pst,part
   gloss: HAB.PART.PST
  -flex: <0>ме.а|ву
-  gramm: hab,part.pst,hab.part.pst,and
+  gramm: hab,part.pst,hab.part.pst,part,and
   gloss: HAB.PART.PST|and
  -flex: <0>на.а
-  gramm: part.pst,neg
+  gramm: part.pst,neg,part
   gloss: NEG|PART.PST
  -flex: <0>на.а|ву
-  gramm: part.pst,neg,and
+  gramm: part.pst,neg,part,and
   gloss: NEG|PART.PST|and
  -flex: <0>.ашуда
-  gramm: pass,part.pst,pass.part.pst
+  gramm: pass,part.pst,pass.part.pst,part
   gloss: PASS.PART.PST
  -flex: <0>.ашуда|ву
-  gramm: pass,part.pst,pass.part.pst,and
+  gramm: pass,part.pst,pass.part.pst,part,and
   gloss: PASS.PART.PST|and
  -flex: <0>на.ашуда
-  gramm: pass,part.pst,pass.part.pst,neg
+  gramm: pass,part.pst,pass.part.pst,part,neg
   gloss: NEG|PASS.PART.PST
  -flex: <0>на.ашуда|ву
-  gramm: pass,part.pst,pass.part.pst,neg,and
+  gramm: pass,part.pst,pass.part.pst,part,neg,and
   gloss: NEG|PASS.PART.PST|and
  -flex: <0>.агӣ
   gramm: part,part.mod.pst,part.mod
