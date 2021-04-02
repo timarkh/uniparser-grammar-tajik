@@ -2078,7 +2078,7 @@
   gramm: part.pst,part,and
   gloss: PART.PST|and
  -flex: <0>ме.а
-  gramm: hab,part.pst,hab.part.pst,part
+  gramm: part.pst,hab.part.pst,part
   gloss: HAB.PART.PST
  -flex: <0>ме.а|ву
   gramm: hab,part.pst,hab.part.pst,part,and
