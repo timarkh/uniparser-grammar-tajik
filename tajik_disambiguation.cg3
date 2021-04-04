@@ -41,9 +41,9 @@ ADD (sbjv.pst) (V part.pst) - Aux IF (1 ("будан" V sbjv))
                                      (-1 (V part.pst));
 
 # Durative subjunctive: V.HAB.PART.PST + be.SBJV
-ADD (sbjv.dur) (V hab.part.pst) IF (1 ("будан" V sbjv))
+ADD (sbjv.hab) (V hab.part.pst) IF (1 ("будан" V sbjv))
                                    (NOT -1 (V part.pst));
-ADD (sbjv.dur) (V hab.part.pst) - Aux IF (1 ("будан" V sbjv))
+ADD (sbjv.hab) (V hab.part.pst) - Aux IF (1 ("будан" V sbjv))
                                          (-1 (V part.pst));
 
 # Progressive subjunctive: V.PART.PST + stand.PART.PST + be.SBJV
