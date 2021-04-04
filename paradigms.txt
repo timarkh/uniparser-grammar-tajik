@@ -1122,10 +1122,10 @@
  -flex: <0>на.ааст|у
   gramm: neg,prf,3,sg,and
   gloss: NEG|PRF.3SG|and
- -flex: <0>на.aем
+ -flex: <0>на.аем
   gramm: neg,prf,1,pl
   gloss: NEG|PRF.1PL
- -flex: <0>на.aем|у
+ -flex: <0>на.аем|у
   gramm: neg,prf,1,pl,and
   gloss: NEG|PRF.1PL|and
  -flex: <0>на.аед
@@ -2077,11 +2077,11 @@
  -flex: <0>.а|ву
   gramm: part.pst,part,and
   gloss: PART.PST|and
- -flex: <0>ме.а
+ -flex: <0>[ме].а
   gramm: part.pst,hab.part.pst,part
   gloss: HAB.PART.PST
- -flex: <0>ме.а|ву
-  gramm: hab,part.pst,hab.part.pst,part,and
+ -flex: <0>[ме].а|ву
+  gramm: part.pst,hab.part.pst,part,and
   gloss: HAB.PART.PST|and
  -flex: <0>на.а
   gramm: part.pst,neg,part
