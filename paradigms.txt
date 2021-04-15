@@ -2078,10 +2078,10 @@
   gramm: part.pst,part,and
   gloss: PART.PST|and
  -flex: <0>[ме].а
-  gramm: part.pst,hab.part.pst,part
+  gramm: hab.part.pst,part
   gloss: HAB.PART.PST
  -flex: <0>[ме].а|ву
-  gramm: part.pst,hab.part.pst,part,and
+  gramm: hab.part.pst,part,and
   gloss: HAB.PART.PST|and
  -flex: <0>на.а
   gramm: part.pst,neg,part
