@@ -65,3 +65,73 @@ ADD (cnject2.prs.prog) (V part.pst) IF (1 ("истодан" V cnject2 prs))
                                        (NOT -1 (V part.pst));
 ADD (cnject2.prs.prog) (V part.pst) - Aux IF (1 ("истодан" V cnject2 prs))
                                              (-1 (V part.pst));
+
+
+# Passives
+# Past passive: V.PART.PST + become.PST
+ADD (pst.pass) (V part.pst) IF (1 ("шудан" V pst) - (cnject) - (cnject2) - (hab))
+                               (NOT -1 (V part.pst));
+ADD (pst.pass) (V part.pst) - Aux IF (1 ("шудан" V pst) - (cnject) - (cnject2) - (hab))
+                                     (-1 (V part.pst));
+
+# Present passive: V.PART.PST + become.PRS
+ADD (prs.pass) (V part.pst) IF (1 ("шудан" V prs) - (cnject) - (cnject2))
+                               (NOT -1 (V part.pst));
+ADD (prs.pass) (V part.pst) - Aux IF (1 ("шудан" V prs) - (cnject) - (cnject2))
+                                     (-1 (V part.pst));
+
+# Imperfect passive: V.PART.PST + become.PST.HAB
+ADD (impf.pass) (V part.pst) IF (1 ("шудан" V hab pst))
+                                (NOT -1 (V part.pst));
+ADD (impf.pass) (V part.pst) - Aux IF (1 ("шудан" V hab pst))
+                                      (-1 (V part.pst));
+
+# Perfect passive: V.PART.PST + become.PRF
+ADD (prf.pass) (V part.pst) IF (1 ("шудан" V prf) - (hab))
+                               (NOT -1 (V part.pst));
+ADD (prf.pass) (V part.pst) - Aux IF (1 ("шудан" V prf) - (hab))
+                                     (-1 (V part.pst));
+
+# Evidential durative passive: V.PART.PST + become.PRF.HAB
+ADD (evid.dur.pass) (V part.pst) IF (1 ("шудан" V prf hab))
+                                    (NOT -1 (V part.pst));
+ADD (evid.dur.pass) (V part.pst) - Aux IF (1 ("шудан" V prf hab))
+                                          (-1 (V part.pst));
+
+# Subjunctive passive: V.PART.PST + become.SBJV
+ADD (sbjv.pass) (V part.pst) IF (1 ("шудан" V sbjv))
+                                (NOT -1 (V part.pst));
+ADD (sbjv.pass) (V part.pst) - Aux IF (1 ("шудан" V sbjv))
+                                      (-1 (V part.pst));
+
+# Conjectual past passive: V.PART.PST + become.CNJECT.PST
+ADD (cnject.pst.pass) (V part.pst) IF (1 ("шудан" V cnject pst))
+                                      (NOT -1 (V part.pst));
+ADD (cnject.pst.pass) (V part.pst) - Aux IF (1 ("шудан" V cnject pst))
+                                            (-1 (V part.pst));
+
+ADD (cnject2.pst.pass) (V part.pst) IF (1 ("шудан" V cnject2 pst))
+                                       (NOT -1 (V part.pst));
+ADD (cnject2.pst.pass) (V part.pst) - Aux IF (1 ("шудан" V cnject2 pst))
+                                             (-1 (V part.pst));
+
+
+# Conjectual present passive: V.PART.PST + become.CNJECT.PRS
+ADD (cnject.prs.pass) (V part.pst) IF (1 ("шудан" V cnject prs))
+                                      (NOT -1 (V part.pst));
+ADD (cnject.prs.pass) (V part.pst) - Aux IF (1 ("шудан" V cnject prs))
+                                            (-1 (V part.pst));
+
+ADD (cnject2.prs.pass) (V part.pst) IF (1 ("шудан" V cnject2 prs))
+                                       (NOT -1 (V part.pst));
+ADD (cnject2.prs.pass) (V part.pst) - Aux IF (1 ("шудан" V cnject2 prs))
+                                             (-1 (V part.pst));
+
+# Analytic passives
+# Literary future passive: V.PART.PST + want.SBJV + become.PST
+ADD (fut.pass) (V part.pst) IF (1 ("хостан" V sbjv))
+                               (2 ("шудан" V pst 3 sg) - (cnject) - (cnject2) - (hab))
+                               (NOT -1 (V part.pst));
+ADD (fut.pass) (V part.pst) - Aux IF (1 ("хостан" V sbjv))
+                                     (2 ("шудан" V pst 3 sg) - (cnject) - (cnject2) - (hab))
+                                     (-1 (V part.pst));
