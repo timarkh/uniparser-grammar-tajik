@@ -93,9 +93,9 @@ ADD (prf.pass) (V part.pst) - Aux IF (1 ("шудан" V prf) - (hab))
                                      (-1 (V part.pst));
 
 # Evidential durative passive: V.PART.PST + become.PRF.HAB
-ADD (evid.dur.pass) (V part.pst) IF (1 ("шудан" V prf hab))
+ADD (hab.prf.pass) (V part.pst) IF (1 ("шудан" V prf hab))
                                     (NOT -1 (V part.pst));
-ADD (evid.dur.pass) (V part.pst) - Aux IF (1 ("шудан" V prf hab))
+ADD (hab.prf.pass) (V part.pst) - Aux IF (1 ("шудан" V prf hab))
                                           (-1 (V part.pst));
 
 # Subjunctive passive: V.PART.PST + become.SBJV
