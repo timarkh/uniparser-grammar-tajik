@@ -15,9 +15,9 @@ ADD (pluprf) (V part.pst) - Aux IF (1 ("будан" V pst) - (cnject) - (cnject2
                                    (-1 (V part.pst));
 
 # Present progressive: V.PART.PST + stand.PRF
-ADD (prs.prog) (V part.pst) IF (1 ("истодан" V prf))
+ADD (prs.prog prog) (V part.pst) IF (1 ("истодан" V prf))
                                (NOT -1 (V part.pst));
-ADD (prs.prog) (V part.pst) - Aux IF (1 ("истодан" V prf))
+ADD (prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V prf))
                                      (-1 (V part.pst));
 
 # Evidential pluperfect: V.PART.PST + be.PRF
