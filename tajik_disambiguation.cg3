@@ -20,6 +20,14 @@ ADD (prs.prog prog) (V part.pst) IF (1 ("истодан" V prf))
 ADD (prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V prf))
                                      (-1 (V part.pst));
 
+# Past progressive: V.PART.PST + stand.PART.PST + be.PST
+ADD (past.prog prog) (V part.pst) IF (1 ("истодан" V part.pst))
+                                     (2 ("будан" V pst) - (cnject) - (cnject2) - (hab))
+                                     (NOT -1 (V part.pst));
+ADD (past.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+                                           (2 ("будан" V pst) - (cnject) - (cnject2) - (hab))
+                                           (-1 (V part.pst));
+
 # Evidential pluperfect: V.PART.PST + be.PRF
 ADD (pluprf.evid) (V part.pst) IF (1 ("будан" V prf))
                                   (NOT -1 (V part.pst));
@@ -135,3 +143,72 @@ ADD (fut.pass) (V part.pst) IF (1 ("хостан" V sbjv))
 ADD (fut.pass) (V part.pst) - Aux IF (1 ("хостан" V sbjv))
                                      (2 ("шудан" V pst 3 sg) - (cnject) - (cnject2) - (hab))
                                      (-1 (V part.pst));
+                                     
+# Subjunctive past passive: V.PART.PST + become.PART.PST + be.SBJV
+ADD (sbjv.pst.pass) (V part.pst) IF (1 ("шудан" V part.pst))
+                                     (2 ("будан" V sbjv))
+                                     (NOT -1 (V part.pst));
+ADD (sbjv.pst.pass) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+                                          (2 ("будан" V sbjv))
+                                          (-1 (V part.pst));
+
+# Durative subjunctive passive: V.HAB.PART.PST + become.HAB.PART.PST + be.SBJV
+ADD (sbjv.hab.pass) (V hab.part.pst) IF (1 ("шудан" V hab.part.pst))
+                                        (2 ("будан" V sbjv))
+                                        (NOT -1 (V part.pst));
+ADD (sbjv.hab.pass) (V hab.part.pst) - Aux IF (1 ("шудан" V hab.part.pst))
+                                              (2 ("будан" V sbjv))
+                                              (-1 (V part.pst));
+
+# Evidential pluperfect passive: V.PART.PST + become.PART.PST + be.PRF
+ADD (pluprf.evid.pass) (V part.pst) IF (1 ("шудан" V part.pst))
+                                       (2 ("будан" V prf))
+                                       (NOT -1 (V part.pst));
+ADD (pluprf.evid.pass) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+                                             (2 ("будан" V prf))
+                                             (-1 (V part.pst));
+
+# Pluperfect passive: V.PART.PST + become.PART.PST + be.PST
+ADD (pluprf.pass) (V part.pst) IF (1 ("шудан" V part.pst))
+                                  (2 ("будан" V pst) - (cnject) - (cnject2))
+                                  (NOT -1 (V part.pst));
+ADD (pluprf.pass) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+                                        (2 ("будан" V pst) - (cnject) - (cnject2))
+                                        (-1 (V part.pst));
+
+# Past progressive passive: V.PART.PST + become.PART.PST + stand.PART.PST + be.PST
+ADD (past.prog.pass prog) (V part.pst) IF (1 ("шудан" V part.pst))
+                                     (2 ("истодан" V part.pst))
+                                     (3 ("будан" V pst) - (cnject) - (cnject2) - (hab))
+                                     (NOT -1 (V part.pst));
+ADD (past.prog.pass prog) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+                                           (2 ("истодан" V part.pst))
+                                           (3 ("будан" V pst) - (cnject) - (cnject2) - (hab))
+                                           (-1 (V part.pst));
+
+# Present progressive passive: V.PART.PST + become.PART.PST + stand.PRF
+ADD (prs.prog.pass prog) (V part.pst) IF (1 ("шудан" V part.pst))
+                                         (2 ("истодан" V prf))
+                                         (NOT -1 (V part.pst));
+ADD (prs.prog.pass prog) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+                                               (2 ("истодан" V prf))
+                                               (-1 (V part.pst));
+
+# Non-finite passive
+# Present progressive participle: V.PART.PST + stand.PART.MOD.PST
+ADD (part.prs.prog prog) (V part.pst) IF (1 ("истодан" V part.mod.pst))
+                                         (NOT -1 (V part.pst));
+ADD (part.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.mod.pst))
+                                               (-1 (V part.pst));
+
+# Present progressive participle in passive: V.PART.PST + become.PART.MOD.PST
+ADD (part.prs.prog.pass prog) (V part.pst) IF (1 ("шудан" V part.mod.pst))
+                                              (NOT -1 (V part.pst));
+ADD (part.prs.prog.pass prog) (V part.pst) - Aux IF (1 ("шудан" V part.mod.pst))
+                                                    (-1 (V part.pst));
+
+# Present modal participle in passive: V.PART.PST + become.PART.MOD.PRS
+ADD (part.mod.prs.pass) (V part.pst) IF (1 ("шудан" V part.mod.prs))
+                                        (NOT -1 (V part.pst));
+ADD (part.mod.prs.pass) (V part.pst) - Aux IF (1 ("шудан" V part.mod.prs))
+                                              (-1 (V part.pst));
