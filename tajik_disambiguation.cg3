@@ -21,10 +21,10 @@ ADD (prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V prf))
                                      (-1 (V part.pst));
 
 # Past progressive: V.PART.PST + stand.PART.PST + be.PST
-ADD (past.prog prog) (V part.pst) IF (1 ("истодан" V part.pst))
+ADD (pst.prog prog) (V part.pst) IF (1 ("истодан" V part.pst))
                                      (2 ("будан" V pst) - (cnject) - (cnject2) - (hab))
                                      (NOT -1 (V part.pst));
-ADD (past.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+ADD (pst.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
                                            (2 ("будан" V pst) - (cnject) - (cnject2) - (hab))
                                            (-1 (V part.pst));
 
@@ -177,11 +177,11 @@ ADD (pluprf.pass) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
                                         (-1 (V part.pst));
 
 # Past progressive passive: V.PART.PST + become.PART.PST + stand.PART.PST + be.PST
-ADD (past.prog.pass prog) (V part.pst) IF (1 ("шудан" V part.pst))
+ADD (pst.prog.pass prog) (V part.pst) IF (1 ("шудан" V part.pst))
                                      (2 ("истодан" V part.pst))
                                      (3 ("будан" V pst) - (cnject) - (cnject2) - (hab))
                                      (NOT -1 (V part.pst));
-ADD (past.prog.pass prog) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
+ADD (pst.prog.pass prog) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
                                            (2 ("истодан" V part.pst))
                                            (3 ("будан" V pst) - (cnject) - (cnject2) - (hab))
                                            (-1 (V part.pst));
