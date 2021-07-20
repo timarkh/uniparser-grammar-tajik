@@ -2946,16 +2946,16 @@
   gramm: part.pst,neg,part,and
   gloss: NEG|PART.PST|and
  -flex: <0>.ашуда
-  gramm: pass,part.pst,pass.part.pst,part
+  gramm: part.pass,part.pst,pass.part.pst,part
   gloss: PASS.PART.PST
  -flex: <0>.ашуда|ву
-  gramm: pass,part.pst,pass.part.pst,part,and
+  gramm: part.pass,part.pst,pass.part.pst,part,and
   gloss: PASS.PART.PST|and
  -flex: <0>на.ашуда
-  gramm: pass,part.pst,pass.part.pst,part,neg
+  gramm: part.pass,part.pst,pass.part.pst,part,neg
   gloss: NEG|PASS.PART.PST
  -flex: <0>на.ашуда|ву
-  gramm: pass,part.pst,pass.part.pst,part,neg,and
+  gramm: part.pass,part.pst,pass.part.pst,part,neg,and
   gloss: NEG|PASS.PART.PST|and
  -flex: <0>.агӣ
   gramm: part,part.mod.pst,part.mod
