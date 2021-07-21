@@ -205,13 +205,13 @@ ADD (part.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.mod.p
                                                (-1 (V part.pst));
 
 # Present progressive participle in passive: V.PART.PST + become.PART.MOD.PST
-ADD (part.prs.prog.pass prog pass part.pass) (V part.pst) IF (1 ("шудан" V part.mod.pst))
+ADD (part.prs.prog.pass prog pass pass.part) (V part.pst) IF (1 ("шудан" V part.mod.pst))
                                               (NOT -1 (V part.pst));
-ADD (part.prs.prog.pass prog pass part.pass) (V part.pst) - Aux IF (1 ("шудан" V part.mod.pst))
+ADD (part.prs.prog.pass prog pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V part.mod.pst))
                                                     (-1 (V part.pst));
 
 # Present modal participle in -агӣ in passive: V.PART.PST + become.PART.MOD.PRS
-ADD (part.mod.prs.pass pass part.pass) (V part.pst) IF (1 ("шудан" V part.mod.prs))
+ADD (part.mod.prs.pass pass pass.part) (V part.pst) IF (1 ("шудан" V part.mod.prs))
                                         (NOT -1 (V part.pst));
-ADD (part.mod.prs.pass pass part.pass) (V part.pst) - Aux IF (1 ("шудан" V part.mod.prs))
+ADD (part.mod.prs.pass pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V part.mod.prs))
                                               (-1 (V part.pst));
