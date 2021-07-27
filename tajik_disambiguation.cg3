@@ -155,10 +155,10 @@ ADD (sbjv.pst.pass pass) (V part.pst) - Aux IF (1 ("шудан" V part.pst))
 # Durative subjunctive passive: V.HAB.PART.PST + become.HAB.PART.PST + be.SBJV
 ADD (sbjv.hab.pass pass) (V hab.part.pst) IF (1 ("шудан" V hab.part.pst))
                                         (2 ("будан" V sbjv))
-                                        (NOT -1 (V part.pst));
+                                        (NOT -1 (V hab.part.pst));
 ADD (sbjv.hab.pass pass) (V hab.part.pst) - Aux IF (1 ("шудан" V hab.part.pst))
                                               (2 ("будан" V sbjv))
-                                              (-1 (V part.pst));
+                                              (-1 (V hab.part.pst));
 
 # Evidential pluperfect passive: V.PART.PST + become.PART.PST + be.PRF
 ADD (pluprf.evid.pass pass) (V part.pst) IF (1 ("шудан" V part.pst))
@@ -214,4 +214,12 @@ ADD (part.prs.prog.pass prog pass pass.part) (V part.pst) - Aux IF (1 ("шуда
 ADD (part.mod.prs.pass pass pass.part) (V part.pst) IF (1 ("шудан" V part.mod.prs))
                                         (NOT -1 (V part.pst));
 ADD (part.mod.prs.pass pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V part.mod.prs))
+                                              (-1 (V part.pst));
+
+# Present progressive converb: V.PART.PST + stand.PART.PST - be
+ADD (conv.prs.prog conv prog) (V part.pst) IF (1 ("истодан" V part.pst))
+                                        (NOT 2 ("будан" V))
+                                        (NOT -1 (V part.pst));
+ADD (conv.prs.prog conv prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+                                              (NOT 2 ("будан" V))
                                               (-1 (V part.pst));
