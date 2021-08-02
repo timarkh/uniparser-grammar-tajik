@@ -62,16 +62,16 @@ ADD (sbjv.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
                                       (2 ("будан" V sbjv))
                                       (-1 (V part.pst));
 
-# Conjectual present progressive 1: V.PART.PST + stand.CNJECT.PRS
-ADD (cnject.prs.prog prog) (V part.pst) IF (1 ("истодан" V cnject prs))
+# Conjectual present progressive 1: V.PART.PST + stand.CNJECT.PST
+ADD (cnject.prs.prog prog) (V part.pst) IF (1 ("истодан" V cnject pst))
                                       (NOT -1 (V part.pst));
-ADD (cnject.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V cnject prs))
+ADD (cnject.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V cnject pst))
                                             (-1 (V part.pst));
 
-# Conjectual present progressive 2: V.PART.PST + stand.CNJECT2.PRS
-ADD (cnject2.prs.prog prog) (V part.pst) IF (1 ("истодан" V cnject2 prs))
+# Conjectual present progressive 2: V.PART.PST + stand.CNJECT2.PST
+ADD (cnject2.prs.prog prog) (V part.pst) IF (1 ("истодан" V cnject2 pst))
                                        (NOT -1 (V part.pst));
-ADD (cnject2.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V cnject2 prs))
+ADD (cnject2.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V cnject2 pst))
                                              (-1 (V part.pst));
 
 
@@ -204,10 +204,10 @@ ADD (part.prs.prog prog) (V part.pst) IF (1 ("истодан" V part.mod.pst))
 ADD (part.prs.prog prog) (V part.pst) - Aux IF (1 ("истодан" V part.mod.pst))
                                                (-1 (V part.pst));
 
-# Present progressive participle in passive: V.PART.PST + become.PART.MOD.PST
-ADD (part.prs.prog.pass prog pass pass.part) (V part.pst) IF (1 ("шудан" V part.mod.pst))
+# Past modal participle in passive: V.PART.PST + become.PART.MOD.PST
+ADD (part.mod.pst.pass pass pass.part) (V part.pst) IF (1 ("шудан" V part.mod.pst))
                                               (NOT -1 (V part.pst));
-ADD (part.prs.prog.pass prog pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V part.mod.pst))
+ADD (part.mod.pst.pass pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V part.mod.pst))
                                                     (-1 (V part.pst));
 
 # Present modal participle in -агӣ in passive: V.PART.PST + become.PART.MOD.PRS
@@ -217,9 +217,9 @@ ADD (part.mod.prs.pass pass pass.part) (V part.pst) - Aux IF (1 ("шудан" V 
                                               (-1 (V part.pst));
 
 # Present progressive converb: V.PART.PST + stand.PART.PST - be
-ADD (conv.prs.prog conv prog) (V part.pst) IF (1 ("истодан" V part.pst))
+ADD (conv.prs.prog conv) (V part.pst) IF (1 ("истодан" V part.pst))
                                         (NOT 2 ("будан" V))
                                         (NOT -1 (V part.pst));
-ADD (conv.prs.prog conv prog) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
+ADD (conv.prs.prog conv) (V part.pst) - Aux IF (1 ("истодан" V part.pst))
                                               (NOT 2 ("будан" V))
                                               (-1 (V part.pst));
