@@ -147,26 +147,14 @@
   gramm: sg,rel,cop,cop.encl,prs,3,sg
   gloss: REL|COP.3SG
  -flex: <0>.ҳо|е|ст
-  gramm: pl,indef,cop,cop.encl,prs,3,sg
-  gloss: PL|INDEF|COP.3SG
- -flex: <0>.ҳо|е|ст
   gramm: pl,rel,cop,cop.encl,prs,3,sg
   gloss: PL|REL|COP.3SG
  -flex: <0>.от|е|ст//.ҷот|е|ст//.вот|е|ст//.ёт|е|ст
   gramm: pl.ar,pl,rel,cop,cop.encl,prs,3,sg
   gloss: PL.ar|REL|COP.3SG
- -flex: <0>.от|е|ст//.ҷот|е|ст//.вот|е|ст
-  gramm: pl.ar,pl,indef,cop,cop.encl,prs,3,sg
-  gloss: PL.ar|INDEF|COP.3SG
- -flex: <0>.он|е|ст//.гон|е|ст//.вон|е|ст//.ён|е|ст
-  gramm: pl.anim,pl,indef,cop,cop.encl,prs,3,sg
-  gloss: PL.anim|INDEF|COP.3SG
  -flex: <0>.он|е|ст//.гон|е|ст//.вон|е|ст//.ён|е|ст
   gramm: pl.anim,pl,rel,cop,cop.encl,prs,3,sg
   gloss: PL.anim|REL|COP.3SG
- -flex: <0>.ин|е|ст
-  gramm: pl.ar.m,pl,indef,cop,cop.encl,prs,3,sg
-  gloss: PL.ar.m|INDEF|COP.3SG
  -flex: <0>.ин|е|ст
   gramm: pl.ar.m,pl,rel,cop,cop.encl,prs,3,sg
   gloss: PL.ar.m|REL|COP.3SG
