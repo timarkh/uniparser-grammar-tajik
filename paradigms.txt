@@ -3167,6 +3167,10 @@
   gramm: suf.adj,adj1
   gloss: ADJ1
   paradigm: N
+ -flex: .вии<.>
+  gramm: suf.adj,adj1,ezf
+  gloss: ADJ1
+  paradigm: N
  -flex: .гӣ<.>
   gramm: suf.adj,adj1
   gloss: ADJ1
